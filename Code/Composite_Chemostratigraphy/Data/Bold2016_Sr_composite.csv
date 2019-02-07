@@ -1,0 +1,342 @@
+sample,height,unit,location,bold_age,87Sr/86Sr,Sr_ppm,Mn/Sr,Rb/Sr,carb_perc,method,period,reference,bold_altered
+Yd1,1,Doushantuo,"Yangjiaping section, China",,0.7081,681,0.13,0.0074,68.1,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd2,4,Doushantuo,"Yangjiaping section, China",,0.70812,520,0.15,0.0154,69.3,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd3,8,Doushantuo,"Yangjiaping section, China",,0.70811,491,0.18,0.0138,62.3,TIMS,Ediacaran,"Cui et al., 2015",yes
+Yd5,16,Doushantuo,"Yangjiaping section, China",,0.70805,394,0.12,0.0063,70.1,TIMS,Ediacaran,"Cui et al., 2015",yes
+Yd6,20,Doushantuo,"Yangjiaping section, China",,0.7081,385,0.16,0.011,81,TIMS,Ediacaran,"Cui et al., 2015",yes
+Yd8,28,Doushantuo,"Yangjiaping section, China",,0.7079,286,0.03,0.0009,97.2,TIMS,Ediacaran,"Cui et al., 2015",yes
+Yd9,32,Doushantuo,"Yangjiaping section, China",,0.70793,1353,0.01,0.0002,97.6,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd10,36,Doushantuo,"Yangjiaping section, China",,0.708,775,0.04,0.0028,94.4,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd11,40,Doushantuo,"Yangjiaping section, China",,0.70801,558,0.13,0.0072,76.6,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd12,44,Doushantuo,"Yangjiaping section, China",,0.70803,899,0.11,0.0038,96.7,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd13,49,Doushantuo,"Yangjiaping section, China",,0.70796,697,0.03,0.0003,95.2,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd14,53,Doushantuo,"Yangjiaping section, China",,0.70791,689,0.02,0.0002,96.2,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd15,56,Doushantuo,"Yangjiaping section, China",,0.70799,1119,0.03,0.0012,97.6,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd16,60,Doushantuo,"Yangjiaping section, China",,0.70794,1483,0.01,0.0002,97.3,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd17,65,Doushantuo,"Yangjiaping section, China",,0.70794,612,0.01,0.0006,98.7,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd18,70,Doushantuo,"Yangjiaping section, China",,0.70799,578,0.03,0.0007,98.4,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd19,75,Doushantuo,"Yangjiaping section, China",,0.70794,850,0.02,0.0008,98.9,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd20,79,Doushantuo,"Yangjiaping section, China",-572.282,0.70807,559,0.05,0.0006,97.5,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd21,84,Doushantuo,"Yangjiaping section, China",-569.865,0.70802,831,0.03,0.0003,73.9,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd22,88,Doushantuo,"Yangjiaping section, China",-567.93,0.70831,586,0.15,0.0024,91.3,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd24,96,Doushantuo,"Yangjiaping section, China",-565,0.70811,964,0.04,0.0002,98.7,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd25,98,Doushantuo,"Yangjiaping section, China",-564.3,0.70835,893,0.05,0.0003,84.3,TIMS,Ediacaran,"Cui et al., 2015",no
+Yd26,103.4,Doushantuo,"Yangjiaping section, China",-563,0.70856,1662,0.02,0.0016,59,TIMS,Ediacaran,"Cui et al., 2015",no
+,,Dengying,China,-543.1246291,0.708456,389,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Dengying,China,-546.4,0.708403,1014,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Dengying,China,-546.412,0.708415,3729,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Dengying,China,-546.958,0.708371,11034,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Dengying,China,-547.499,0.70839,3241,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Dengying,China,-547.71,0.708481,3011,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Dengying,China,-548.366,0.708421,672,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Dengying,China,-548.6,0.708518,518,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 3,China,-577.1336405,0.708129,293,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-589.3,0.707772,383,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-595.9,0.708116,369,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-598.1,0.70804,430,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-598.9,0.708179,434,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-600.2,0.708111,572,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-601.1,0.70814,524,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-606.3,0.708119,474,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-607.9,0.708109,659,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-607.9,0.708153,517,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-609.3,0.708242,534,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-612.3,0.707982,487,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-613.9,0.708284,249,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-615.6,0.708091,385,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-615.9,0.708062,475,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-618.8,0.708189,384,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-622.6,0.708295,537,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-626.4,0.708109,645,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-630,0.70794,500,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-631.9,0.708157,736,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",no
+,,Member 2,China,-632,0.708019,296,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+,,Member 2,China,-634.1,0.708184,436,,,,MC-ICPMS,Ediacaran,"Sawaki and others, 2010",yes
+MD2,,Buah,Oman,-552,0.70871,471,0.51,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+WS9,,Shuram,Oman,-554,0.70867,491,0.62,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+WS2,,Shuram,Oman,-556,0.70874,474,0.51,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+5.36,,Wonoka Fm.,South Australia,556.9,0.7091,577,1.15,,,,Ediacaran,"Calver, 2000",no
+5.41,,Wonoka Fm.,South Australia,555.7729196,0.70888,717,0.54,,,,Ediacaran,"Calver, 2000",no
+5.44,,Wonoka Fm.,South Australia,554.7574048,0.70868,921,0.63,,,,Ediacaran,"Calver, 2000",no
+5.52,,Wonoka Fm.,South Australia,553.1198872,0.70876,1420,0.24,,,,Ediacaran,"Calver, 2000",no
+5.54,,Wonoka Fm.,South Australia,552.8279267,0.70899,1064,0.42,,,,Ediacaran,"Calver, 2000",no
+6.12,,Wonoka Fm.,South Australia,551.0380819,0.70901,429,0.63,,,,Ediacaran,"Calver, 2000",yes
+VML-__8,,Salitre Fm.,Irece basin (Brazil),-619.5,0.70769,461,0.03,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",yes
+VML-__8bc,,Salitre Fm.,Irece basin (Brazil),-594.6,0.70746,1220,0.01,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+JC-__54,,Salitre Fm.,Irece basin (Brazil),-594.2,0.70745,792,0.02,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+IR-__AM-__11,,Salitre Fm.,Irece basin (Brazil),-596.8,0.7075,2380,0.03,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+VML-__6a,,Salitre Fm.,Irece basin (Brazil),-597,0.7082,896,0.01,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+VML-__6b,,Salitre Fm.,Irece basin (Brazil),-597.4,0.7078,790,0.01,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+VML-__6c,,Salitre Fm.,Irece basin (Brazil),-597.8,0.70789,963,0.09,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+VML-__7b,,Salitre Fm.,Irece basin (Brazil),-598.1,0.70765,1430,0.01,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+VML-__3,,Salitre Fm.,Irece basin (Brazil),-632,0.7078,1720,0.02,,,MC-ICPMS,Ediacaran,"Misi and Vizer, 1998",no
+C46-__84.2,,Maieberg,Namibia,-632,0.70805,894,0.19,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+C46-__74.4,,Maieberg,Namibia,-632.86,0.70805,1230,0.14,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__187.6,,Maieberg,Namibia,-632.88146,0.70755,690,0.03,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__158.5,,Maieberg,Namibia,-633.505946,0.70752,1900,0.02,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__151.2,,Maieberg,Namibia,-633.662604,0.70756,4270,0,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__150.2,,Maieberg,Namibia,-633.684064,0.70744,942,0.11,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__105.2,,Maieberg,Namibia,-633.877204,0.70756,1280,,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__96.2,,Maieberg,Namibia,-634.055322,0.70748,1360,0.03,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P1012X-__87.9,,Maieberg,Namibia,-634.076782,0.70758,1170,0.07,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+C46-__20.2,,Maieberg,Namibia,-635,0.70717,1790,0.06,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+,,Nama,Namibia,-539,0.7087,1512,,,,TIMS,Ediacaran,"Kaufman and others, 1993",no
+SS17,,Nama,Namibia,-543.9,0.70851,1591,0.04,0.12,,TIMS,Ediacaran,"Kaufman and others, 1994",no
+SH12,,Nama,Namibia,-544,0.70846,3336,0.05,0.51,,TIMS,Ediacaran,"Kaufman and others, 1995",no
+NG91,,Nama,Namibia,-544.9,0.70859,1886,0.22,0.04,,TIMS,Ediacaran,"Kaufman and others, 1996",no
+SH43,,Nama,Namibia,-544.9,0.70853,1520,0.02,0.06,,TIMS,Ediacaran,"Kaufman and others, 1997",no
+NG90,,Nama,Namibia,-545.1,0.70857,1493,0.08,0.08,,TIMS,Ediacaran,"Kaufman and others, 1998",no
+NG87,,Nama,Namibia,-545.3,0.70857,2093,0.06,0.03,,TIMS,Ediacaran,"Kaufman and others, 1999",no
+SH49,,Nama,Namibia,-545.4,0.70849,1979,0.03,0.07,,TIMS,Ediacaran,"Kaufman and others, 2000",no
+NG85,,Nama,Namibia,-545.5,0.70858,1029,0.07,0.09,,TIMS,Ediacaran,"Kaufman and others, 2001",no
+NG83,,Nama,Namibia,-545.7,0.70852,1856,0.1,0.09,,TIMS,Ediacaran,"Kaufman and others, 2002",no
+,,Nama,Namibia,-550,0.7084,3596,,,,TIMS,Ediacaran,"Kaufman and others, 2003",no
+P4006-346.6,,Ombaatjie,Namibia,-640.96,0.70735,1100,0.31,,,TIMS,Cryogenian,"Halverson and others, 2007",no
+P1012-292,,Ombaatje,Namibia,-648.9,0.70725,868,0.03,,,TIMS,Cryogenian,"Halverson and others, 2007",no
+11.97,,Rasthof,Namibia,-658.6,0.70699,1340,0.58,,,Thermionic Quadrupole MS,Cryogenian,"Yoshioka and others, 2003",no
+9.94,,Rasthof,Namibia,-658.66,0.70698,1430,0.62,,,Thermionic Quadrupole MS,Cryogenian,"Yoshioka and others, 2003",no
+5.96,,Rasthof,Namibia,-658.8,0.70689,1720,0.51,,,Thermionic Quadrupole MS,Cryogenian,"Yoshioka and others, 2003",no
+4.95,,Rasthof,Namibia,-658.86,0.70685,1460,0.65,,,Thermionic Quadrupole MS,Cryogenian,"Yoshioka and others, 2003",no
+3.99,,Rasthof,Namibia,-658.88,0.70697,790,0.38,,,Thermionic Quadrupole MS,Cryogenian,"Yoshioka and others, 2003",no
+M14-172,,Hayhook,NW Canada,-633.5,0.70714,,,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+M14-1.7,,Hayhook,NW Canada,-633.5,0.70716,3010,0.07,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+G11-1.53,,Hayhook,NW Canada,-633.5,0.70716,2960,0.08,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+G11-0.14,,Hayhook,NW Canada,-633.7,0.70714,,,,,TIMS,Ediacaran,"Halverson and others, 2007",no
+P7-12.4,,Keele,NW Canada,-640,0.7072,,,,,TIMS,Cryogenian,"Halverson and others, 2007",no
+P7-4.1,,Keele,NW Canada,-641.6,0.70731,,,,,TIMS,Cryogenian,"Halverson and others, 2007",no
+P7-2.2,,Keele,NW Canada,-642,0.70718,,,,,TIMS,Cryogenian,"Halverson and others, 2007",no
+P10H-3,,Keele,NW Canada,-653,0.70718,,,,,TIMS,Cryogenian,"Halverson and others, 2007",no
+,,Middle Keele,NW Canada,-653,0.70712,,,,,TIMS,Cryogenian,"Narbonne and others, 1994",no
+F1173,0.1,Twitya,NW Canada,-659,0.70693,641,0.701148228,,96.1,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,1,Twitya,NW Canada,-659,0.7069,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,1.6,Twitya,NW Canada,-659,0.70686,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,2,Twitya,NW Canada,-659,0.70678,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,2.6,Twitya,NW Canada,-659,0.70681,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,3.1,Twitya,NW Canada,-658.9,0.70672,2763,0.062300727,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,3.7,Twitya,NW Canada,-658.9,0.70675,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,4.9,Twitya,NW Canada,-658.9,0.70682,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,5.5,Twitya,NW Canada,-658.9,0.70681,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,6,Twitya,NW Canada,-658.9,0.7068,2825,0.149146492,,96,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,7.5,Twitya,NW Canada,-658.9,0.70676,3345,0.061267793,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,8,Twitya,NW Canada,-658.9,0.70676,3052,0.068768929,,100,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,9.5,Twitya,NW Canada,-658.8,0.70674,3808,0.035227148,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,10.5,Twitya,NW Canada,-658.8,0.70682,2248,0.331882126,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,11,Twitya,NW Canada,-658.8,0.70685,2082,0.224705662,,100,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,11.5,Twitya,NW Canada,-658.8,0.70677,3007,0.198497035,,100,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,12,Twitya,NW Canada,-658.8,0.70681,2761,0.209712921,,100,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,14,Twitya,NW Canada,-658.8,0.70676,3512,0.347419975,,100,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,14.5,Twitya,NW Canada,-658.8,0.70679,2240,0.327376299,,100,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,16.5,Twitya,NW Canada,-658.7,0.70681,3084,0.205995995,,95.9,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,17,Twitya,NW Canada,-658.7,0.70692,2924,0.296948773,,96,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,17.5,Twitya,NW Canada,-658.7,0.70677,3340,0.386900006,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,19,Twitya,NW Canada,-658.7,0.70679,2372,0.201905739,,94.1,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,19.5,Twitya,NW Canada,-658.7,0.70683,2594,0.222941333,,94.1,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,20.5,Twitya,NW Canada,-658.7,0.70684,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,21,Twitya,NW Canada,-658.6,0.70692,3240,0.200074831,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,22,Twitya,NW Canada,-658.6,0.70686,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,23,Twitya,NW Canada,-658.6,0.70681,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,25.5,Twitya,NW Canada,-658.6,0.70683,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,27,Twitya,NW Canada,-658.5,0.70684,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,27.5,Twitya,NW Canada,-658.5,0.70687,1513,0.446342084,,96.1,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,28,Twitya,NW Canada,-658.5,0.70701,2898,0.153691658,,98,TIMS,Cryogenian,"Rooney and others, 2014",no
+F1173,29.5,Twitya,NW Canada,-658.5,0.70692,,,,,TIMS,Cryogenian,"Rooney and others, 2014",no
+F949,0.6,T1,Mongolia (Uliastai Gorge),658.97141,0.706727,2363.460331,0.112518884,0.000250637,,TIMS,Cryogenian,This study,no
+F949,3,T1,Mongolia (Uliastai Gorge),658.834178,0.706814,1325.978842,0.11182714,0.000409472,,TIMS,Cryogenian,This study,no
+F949,8,T1,Mongolia (Uliastai Gorge),658.548278,0.706904,1280.744685,0.033621345,0.000587068,,TIMS,Cryogenian,This study,no
+F949,18,T1,Mongolia (Uliastai Gorge),657.976478,0.707367,1198.418017,0.219054888,0.001054651,,TIMS,Cryogenian,This study,no
+F949,29,T2,Mongolia (Uliastai Gorge),657.347498,0.707265,2916.259201,0.042083534,0.000191654,,TIMS,Cryogenian,This study,no
+F949,47,T2,Mongolia (Uliastai Gorge),656.318258,0.707286,3573.989247,0.036956624,0.0001924,,TIMS,Cryogenian,This study,no
+F949,56,T2,Mongolia (Uliastai Gorge),655.803638,0.707153,,,,,TIMS,Cryogenian,This study,no
+F949,65,T2,Mongolia (Uliastai Gorge),655.289018,0.707043,874.3098375,0.008239811,0.000378462,,TIMS,Cryogenian,This study,no
+F949,76,T2,Mongolia (Uliastai Gorge),654.660038,0.707193,,,,,TIMS,Cryogenian,This study,no
+F949,82,T2,Mongolia (Uliastai Gorge),654.316958,0.707144,,,,,TIMS,Cryogenian,This study,no
+F949,88,T2,Mongolia (Uliastai Gorge),653.973878,0.707151,589.842262,0.005552163,0.000594349,,TIMS,Cryogenian,This study,no
+F949,96,T2,Mongolia (Uliastai Gorge),653.516438,0.707171,,,,,TIMS,Cryogenian,This study,no
+F949,102,T2,Mongolia (Uliastai Gorge),653.173358,0.707195,,,,,TIMS,Cryogenian,This study,no
+F949,106,T2,Mongolia (Uliastai Gorge),652.944638,0.707208,,,,,TIMS,Cryogenian,This study,no
+F949,110,T2,Mongolia (Uliastai Gorge),652.715918,0.707107,,,,,TIMS,Cryogenian,This study,no
+F949,114,T2,Mongolia (Uliastai Gorge),652.487198,0.707167,,,,,TIMS,Cryogenian,This study,no
+F949,116,T2,Mongolia (Uliastai Gorge),652.372838,0.707122,565.924983,0.013582599,0.000405012,,TIMS,Cryogenian,This study,no
+F949,120,T2,Mongolia (Uliastai Gorge),652.144118,0.707206,,,,,TIMS,Cryogenian,This study,no
+F949,124,T2,Mongolia (Uliastai Gorge),651.915398,0.707264,,,,,TIMS,Cryogenian,This study,no
+F949,132,T2,Mongolia (Uliastai Gorge),651.457958,0.707161,,,,,TIMS,Cryogenian,This study,no
+F949,136,T2,Mongolia (Uliastai Gorge),651.229238,0.707175,,,,,TIMS,Cryogenian,This study,no
+F949,140,T2,Mongolia (Uliastai Gorge),651.000518,0.707147,743.8284267,0.061372357,0.000955152,97.3504105,TIMS,Cryogenian,This study,no
+F949,144,T2,Mongolia (Uliastai Gorge),650.771798,0.707159,547.0333687,0.094173901,0.001021919,95.1641918,TIMS,Cryogenian,This study,no
+F949,148,T3,Mongolia (Uliastai Gorge),650.568858,0.707217,,,,98.0348259,TIMS,Cryogenian,This study,no
+F949,150,T3,Mongolia (Uliastai Gorge),650.506058,0.70717,,,,98.4465347,TIMS,Cryogenian,This study,no
+F949,151,T3,Mongolia (Uliastai Gorge),,0.707213,649.4145603,0.173601574,0.0006086,96.4965174,TIMS,Cryogenian,This study,no
+F949,153,T3,Mongolia (Uliastai Gorge),650.411858,0.707264,538.4313097,0.30094959,0.000591815,94.8390244,TIMS,Cryogenian,This study,no
+F949,155,T3,Mongolia (Uliastai Gorge),650.349058,0.707228,,,,83.5,TIMS,Cryogenian,This study,no
+F949,157,T3,Mongolia (Uliastai Gorge),650.286258,0.707237,,,,88.0326829,TIMS,Cryogenian,This study,no
+F949,160,T3,Mongolia (Uliastai Gorge),650.192058,0.707183,,,,98.3551136,TIMS,Cryogenian,This study,no
+F949,164,T3,Mongolia (Uliastai Gorge),650.066458,0.707273,595.101872,0.063502234,0.000704093,87.8623188,TIMS,Cryogenian,This study,no
+F949,172,T3,Mongolia (Uliastai Gorge),649.815258,0.707283,2577.488404,0.003512304,0.000144589,99.5949239,TIMS,Cryogenian,This study,no
+F949,184,T3,Mongolia (Uliastai Gorge),649.438458,0.707385,1212.060577,0.015956847,0.000337732,98.933,TIMS,Cryogenian,This study,no
+F949,210,T3,Mongolia (Uliastai Gorge),648.622058,0.707355,1530.280359,0.015751583,0.000249458,,TIMS,Cryogenian,This study,no
+F949,210,T3,Mongolia (Uliastai Gorge),,0.707363,,,,,TIMS,Cryogenian,This study,no
+F949,232,T3,Mongolia (Uliastai Gorge),647.931258,0.707335,1198.932461,0.0116575,0.000298566,,TIMS,Cryogenian,This study,no
+F949,264,T3,Mongolia (Uliastai Gorge),646.926458,0.707315,1263.548551,0.002317054,0.00029815,,TIMS,Cryogenian,This study,no
+F949,282,T3,Mongolia (Uliastai Gorge),646.361258,0.7073,2436.186848,0.000583572,0.000165282,,TIMS,Cryogenian,This study,no
+F949,332,T3,Mongolia (Uliastai Gorge),644.791258,0.707272,1292.153091,0.002200064,0.000312907,,TIMS,Cryogenian,This study,no
+F949,358,T3,Mongolia (Uliastai Gorge),643.974858,0.707289,1073.931417,0.007994345,0.000314215,,TIMS,Cryogenian,This study,no
+F949,378,T3,Mongolia (Uliastai Gorge),643.346858,0.707221,1172.56998,0.020047632,0.000302013,,TIMS,Cryogenian,This study,no
+F949,382,T3,Mongolia (Uliastai Gorge),643.221258,0.707259,1302.849864,0.037459754,0.000289679,,TIMS,Cryogenian,This study,no
+F949,388,T4,Mongolia (Uliastai Gorge),643.032858,0.707363,558.3289395,0.72305902,0.000900077,,TIMS,Cryogenian,This study,no
+96TST1A,0.1,T1,Mongolia(Tsagaan Gorge),659,0.706754,2900,0.077586207,,95.2,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST3,1.5,T1,Mongolia(Tsagaan Gorge),658.9748,0.706796,1350,0.224444444,,96.5,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST6,7.5,T1,Mongolia(Tsagaan Gorge),658.8668,0.70684,,,,97.1,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST13,18,T1,Mongolia(Tsagaan Gorge),658.6778,0.70699,960,0.129166667,,97.6,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST16,22.5,T1,Mongolia(Tsagaan Gorge),658.5968,0.706944,1500,0.093333333,,98.2,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST21,30,T2,Mongolia(Tsagaan Gorge),658.4618,0.70705,1060,0.148113208,,97.5,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST24,38,T2,Mongolia(Tsagaan Gorge),658.2858,0.707094,1500,0.104,,90.1,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST31,67,T2,Mongolia(Tsagaan Gorge),657.6478,0.70709,,,,97.7,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST33,73,T2,Mongolia(Tsagaan Gorge),657.5158,0.7072,650,0.023076923,,99,,Cryogenian,"Brasier and others, 1996; Shields and others, 2002",no
+96TST35,77,T2,Mongolia(Tsagaan Gorge),657.4278,0.707164,,,,99.7,,Cryogenian,"Shields and others, 2002",no
+96TST37,97,T2,Mongolia(Tsagaan Gorge),656.9878,0.70729,,,,99.9,,Cryogenian,"Shields and others, 2002",no
+96TST42,147,T3,Mongolia(Tsagaan Gorge),649,0.70713,,,,99.5,,Cryogenian,"Shields and others, 2002",no
+96TST55,210,T3,Mongolia(Tsagaan Gorge),647.2569173,0.70734,,,,99.7,,Cryogenian,"Shields and others, 2002",no
+96TST66,320,T3,Mongolia(Tsagaan Gorge),644.2134395,0.70729,,,,98.8,,Cryogenian,"Shields and others, 2002",no
+96TST69,350,T3,Mongolia(Tsagaan Gorge),643.3834001,0.707345,934,,,97,,Cryogenian,"Shields and others, 2002",no
+96TST71,375,T3,Mongolia(Tsagaan Gorge),642.6917006,0.707247,1110,,,91.7,,Cryogenian,"Shields and others, 2002",no
+96TST75,400,T3,Mongolia(Tsagaan Gorge),642.0000011,0.707253,60,,,95,,Cryogenian,"Shields and others, 2002",yes
+U1121,0.5,Ol,Mongolia(Tsagaan Gorge),-635.1868327,0.708713,121,,,,MC-ICPMS,Ediacaran,this study,yes
+U1121,12,Ol,Mongolia(Tsagaan Gorge),-634.7775801,0.707556,483,,,,MC-ICPMS,Ediacaran,this study,yes
+U1121,18.5,Ol,Mongolia(Tsagaan Gorge),-634.4572954,0.707562,861,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,32,Ol,Mongolia(Tsagaan Gorge),-633.9946619,0.707586,689,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,23.5,Ol,Mongolia(Tsagaan Gorge),-634.2793594,0.707588,660,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,21,Ol,Mongolia(Tsagaan Gorge),-634.3505338,0.707598,572,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,27,Ol,Mongolia(Tsagaan Gorge),-634.208185,0.707604,626,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,16,Ol,Mongolia(Tsagaan Gorge),-634.7064057,0.707615,686,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,29.5,Ol,Mongolia(Tsagaan Gorge),-634.0658363,0.707625,802,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,39.5,Ol,Mongolia(Tsagaan Gorge),-633.63879,0.707644,309,,,,MC-ICPMS,Ediacaran,this study,yes
+U1121,9.2,Ol,Mongolia(Tsagaan Gorge),-634.8843416,0.707645,532,,,,MC-ICPMS,Ediacaran,this study,no
+U1121,4,Ol,Mongolia(Tsagaan Gorge),-635.0622776,0.707718,197,,,,MC-ICPMS,Ediacaran,this study,yes
+U1121,8,Ol,Mongolia(Tsagaan Gorge),-634.9199288,0.70776,212,,,,MC-ICPMS,Ediacaran,this study,yes
+U1122,12,Sh1,Mongolia(Tsagaan Gorge),-633.2829181,0.707978,353,,,,MC-ICPMS,Ediacaran,this study,yes
+U1122,14.5,Sh1,Mongolia(Tsagaan Gorge),-633.2117437,0.707605,445,,,,MC-ICPMS,Ediacaran,this study,yes
+U1122,16,Sh1,Mongolia(Tsagaan Gorge),-633.1405694,0.707727,631,,,,MC-ICPMS,Ediacaran,this study,no
+U1122,19,Sh1,Mongolia(Tsagaan Gorge),-633.069395,0.707668,564,,,,MC-ICPMS,Ediacaran,this study,no
+U1122,21.5,Sh1,Mongolia(Tsagaan Gorge),-632.9982206,0.707565,835,,,,MC-ICPMS,Ediacaran,this study,no
+U1122,22.5,Sh1,Mongolia(Tsagaan Gorge),-632.9270462,0.707619,635,,,,MC-ICPMS,Ediacaran,this study,no
+U1122,26.5,Sh1,Mongolia(Tsagaan Gorge),-632.8558719,0.707582,807,,,,MC-ICPMS,Ediacaran,this study,no
+U1122,30.5,Sh1,Mongolia(Tsagaan Gorge),-632.7135231,0.708453,105,,,,MC-ICPMS,Ediacaran,this study,yes
+U1235,143,Sh3a,Mongolia(Tsagaan Gorge),-588.4614255,0.707951,1470,,,,MC-ICPMS,Ediacaran,this study,no
+U1235,118,Sh3a,Mongolia(Tsagaan Gorge),-592.6350159,0.708004,475,,,,MC-ICPMS,Ediacaran,this study,yes
+U1235,111,Sh3a,Mongolia(Tsagaan Gorge),-598.1038585,0.707893,669,,,,MC-ICPMS,Ediacaran,this study,no
+U1235,104,Sh3a,Mongolia(Tsagaan Gorge),-598.9673599,0.707836,1800,,,,MC-ICPMS,Ediacaran,this study,no
+U1235,94,Sh3a,Mongolia(Tsagaan Gorge),-600.2626121,0.707825,2230,,,,MC-ICPMS,Ediacaran,this study,no
+U1235,86,Sh3a,Mongolia(Tsagaan Gorge),-600.5,0.707883,817,,,,MC-ICPMS,Ediacaran,this study,no
+U1235,79,Sh3a,Mongolia(Tsagaan Gorge),-602.7091996,0.707826,1020,,,,MC-ICPMS,Ediacaran,this study,no
+F872,172,Sh3a,Mongolia(Tsagaan Gorge),-602.7091996,0.707959,115,,,,MC-ICPMS,Ediacaran,this study,yes
+F872,189,Sh3a,Mongolia(Tsagaan Gorge),-600.2626121,0.707713,1190,,,,MC-ICPMS,Ediacaran,this study,no
+F872,193,Sh3a,Mongolia(Tsagaan Gorge),-599.6869445,0.70769,1650,,,,MC-ICPMS,Ediacaran,this study,no
+F872,198,Sh3a,Mongolia(Tsagaan Gorge),-598.9673599,0.707834,786,,,,MC-ICPMS,Ediacaran,this study,no
+F872,204,Sh3a,Mongolia(Tsagaan Gorge),-598.1038585,0.708466,61,,,,MC-ICPMS,Ediacaran,this study,yes
+F872,242,Sh3b,Mongolia(Tsagaan Gorge),-592.6350159,0.708036,155,,,,MC-ICPMS,Ediacaran,this study,yes
+F872,244,Sh3b,Mongolia(Tsagaan Gorge),-592.3471821,0.707931,278,,,,MC-ICPMS,Ediacaran,this study,yes
+F872,246,Sh3b,Mongolia(Tsagaan Gorge),-592.0593483,0.707786,1700,,,,MC-ICPMS,Ediacaran,this study,no
+F872,249,Sh3b,Mongolia(Tsagaan Gorge),-591.6275975,0.707784,1750,,,,MC-ICPMS,Ediacaran,this study,no
+F872,251,Sh3b,Mongolia(Tsagaan Gorge),-591.3397637,0.707772,2250,,,,MC-ICPMS,Ediacaran,this study,no
+F872,252,Sh3b,Mongolia(Tsagaan Gorge),-591.18,0.707852,587,,,,MC-ICPMS,Ediacaran,this study,no
+F872,253,Sh3b,Mongolia(Tsagaan Gorge),-591.0519299,0.707803,886,,,,MC-ICPMS,Ediacaran,this study,no
+F872,255,Sh3b,Mongolia(Tsagaan Gorge),-590.7640961,0.707809,750,,,,MC-ICPMS,Ediacaran,this study,no
+F872,259,Sh3b,Mongolia(Tsagaan Gorge),-590.1884284,0.707797,1900,,,,MC-ICPMS,Ediacaran,this study,no
+F872,261,Sh3b,Mongolia(Tsagaan Gorge),-589.9005946,0.707646,1970,,,,MC-ICPMS,Ediacaran,this study,no
+F872,263,Sh3b,Mongolia(Tsagaan Gorge),-589.6127608,0.707899,292,,,,MC-ICPMS,Ediacaran,this study,yes
+F872,265,Sh3b,Mongolia(Tsagaan Gorge),-589.324927,0.707833,988,,,,MC-ICPMS,Ediacaran,this study,no
+F872,267,Sh3b,Mongolia(Tsagaan Gorge),-589.0370931,0.707793,2000,,,,MC-ICPMS,Ediacaran,this study,no
+F872,269,Sh3b,Mongolia(Tsagaan Gorge),-588.7492593,0.707795,1590,,,,MC-ICPMS,Ediacaran,this study,no
+F872,271,Sh3b,Mongolia(Tsagaan Gorge),-588.4614255,0.70846,96,,,,MC-ICPMS,Ediacaran,this study,yes
+U1437,90,Sh3a,Mongolia(Tsagaan Gorge),-605.5875378,0.707876,190,,,,MC-ICPMS,Ediacaran,this study,yes
+U1437,93,Sh3a,Mongolia(Tsagaan Gorge),-605.299704,0.707842,182,,,,MC-ICPMS,Ediacaran,this study,yes
+U1437,99,Sh3a,Mongolia(Tsagaan Gorge),-605.0118702,0.708462,111,,,,MC-ICPMS,Ediacaran,this study,yes
+F949,148,T3,Mongolia (Khongor Range),-652.6,0.707279,,,,,MC-ICPMS,Ediacaran,this study,no
+F949,164,T3,Mongolia (Khongor Range),-651.8,0.707331,,,,,MC-ICPMS,Ediacaran,this study,no
+F949,184,T3,Mongolia (Khongor Range),-650.8,0.707411,,,,,MC-ICPMS,Ediacaran,this study,no
+Bay S1a,596,ZA,Mongolia (Bayan Gorge),-540,0.70864,122,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",yes
+Bay S0,598,ZA,Mongolia (Bayan Gorge),-540.02,0.70853,990,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Tsag. 20,618,ZA,Mongolia(Tsagaan Gorge),-540.22,0.708417,2300,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay S4,618,ZA,Mongolia (Bayan Gorge),-540.22,0.708527,620,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay S5,623,ZA,Mongolia (Bayan Gorge),-540.27,0.708425,755,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Tsag. 24,780,ZA,Mongolia(Tsagaan Gorge),-541.84,0.708553,1080,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay. By O2,800,ZA,Mongolia (Bayan Gorge),-542.04,0.70843,550,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay. Bd14,800,ZA,Mongolia (Bayan Gorge),-542.04,0.708487,510,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay 2,837,ZA,Mongolia (Bayan Gorge),-542.41,0.708562,520,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay 4,847,ZA,Mongolia (Bayan Gorge),-542.51,0.708439,1090,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay 33,870,ZA,Mongolia (Bayan Gorge),-542.74,0.708458,620,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Tsag. 25,870,ZA,Mongolia(Tsagaan Gorge),-542.74,0.708478,284,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",yes
+Bay 40,880,ZA,Mongolia (Bayan Gorge),-542.84,0.708574,1120,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay 42,882,ZA,Mongolia (Bayan Gorge),-542.86,0.708648,1520,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Bay 44,890,ZA,Mongolia (Bayan Gorge),-542.94,0.7085,1500,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+Tsag. 26,895,ZA,Mongolia(Tsagaan Gorge),-542.99,0.708687,980,,,,MC-ICPMS,Ediacaran,"Brasier and others, 1996",no
+110-03,357,Torginskaya Fm.,Siberia (Chara),-556,0.70825,810,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+116-03,336,Torginskaya Fm.,Siberia (Chara),-556.1776,0.70824,382,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+081-03,282,Torginskaya Fm.,Siberia (Chara),-556.6312,0.70859,315,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+084-03,267,Torginskaya Fm.,Siberia (Chara),-556.7572,0.70829,298,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+105-03,259,Torginskaya Fm.,Siberia (Chara),-556.8244,0.70829,302,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+085-03,251,Torginskaya Fm.,Siberia (Chara),-556.8916,0.70827,355,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+089-03,233,Torginskaya Fm.,Siberia (Chara),-557.0428,0.7082,812,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+094-03,198,Torginskaya Fm.,Siberia (Chara),-557.3368,0.70822,249,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+062-03,124.5,Torginskaya Fm.,Siberia (Chara),-557.9542,0.70834,393,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+063-03,121.5,Torginskaya Fm.,Siberia (Chara),-557.9794,0.70822,361,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+064-03,118.5,Torginskaya Fm.,Siberia (Chara),-558.0046,0.7082,436,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+073-03,10,Torginskaya Fm.,Siberia (Chara),-558.916,0.7083,320,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+075-03,0,Torginskaya Fm.,Siberia (Chara),-559,0.7084,318,,,,TIMS,Ediacaran,"Melezhik and others, 2009",yes
+72-04,1095,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.003,0.70821,3300,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+74-04,1084,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.0624,0.70825,3670,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+75-04,1077,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.1002,0.70821,6590,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+77-04,1066,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.1596,0.7082,4430,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+79-04,1040,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.3,0.70818,4440,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+80-04,1030,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.354,0.70819,11870,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+81-04,1015,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.435,0.70816,3990,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+82-04,1003,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.4998,0.70818,3640,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+83-04,986,Cnenchinskaya Fm.,Siberia (Zhuya West),-556.5916,0.70816,2530,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+89-04,790,Cnenchinskaya Fm.,Siberia (Zhuya West),-557.65,0.70808,3190,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+94-04,725,Cnenchinskaya Fm.,Siberia (Zhuya West),-558.001,0.70804,7050,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+95-04,710,Cnenchinskaya Fm.,Siberia (Zhuya West),-558.082,0.70804,1520,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+96-04,690,Cnenchinskaya Fm.,Siberia (Zhuya West),-558.19,0.70803,3620,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+100-04,540,Nikol'skaya Fm.,Siberia (Zhuya West),-559,0.70802,2190,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+80-05,763,Kholychskaya Fm.,Siberia (Bol'shoy Patom),-556.00673,0.70862,6875,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+83-05,741,Kholychskaya Fm.,Siberia (Bol'shoy Patom),-556.10067,0.70847,7690,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+90-05,523,Alyanchskaya Fm.,Siberia (Bol'shoy Patom),-557.03153,0.70846,4670,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+91-05,508,Alyanchskaya Fm.,Siberia (Bol'shoy Patom),-557.09558,0.70836,25800,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+98-05,375,Alyanchskaya Fm.,Siberia (Bol'shoy Patom),-557.66349,0.70819,2505,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+100-05,360,Alyanchskaya Fm.,Siberia (Bol'shoy Patom),-557.72754,0.70819,6280,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+101-05,353,Alyanchskaya Fm.,Siberia (Bol'shoy Patom),-557.75743,0.70818,4508,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+104-05,318,Alyanchskaya Fm.,Siberia (Bol'shoy Patom),-557.90688,0.70813,782,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+123-05,146,Nikol'skaya Fm.,Siberia (Bol'shoy Patom),-558.64132,0.70807,18950,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+114-05,62,Nikol'skaya Fm.,Siberia (Bol'shoy Patom),-559,0.70811,2730,,,,TIMS,Ediacaran,"Melezhik and others, 2009",no
+35/93,1550,Valyukhta Fm.,Siberia (Ura),-595.45,0.70802,652.5,0.09,0.0006,,,Ediacaran,"Vinogradov and others, 1996",no
+20/93,1450,Valyukhta Fm.,Siberia (Ura),-595.77,0.70769,1989,0.08,0.0003,,,Ediacaran,"Vinogradov and others, 1996",no
+19/93,1350,Valyukhta Fm.,Siberia (Ura),-596.1,0.70791,645,0.1,0.0008,,,Ediacaran,"Vinogradov and others, 1996",no
+18/93,1250,Valyukhta Fm.,Siberia (Ura),-594.43,0.70781,1824,0.03,0.0051,,,Ediacaran,"Vinogradov and others, 1996",no
+75/93,450,Barakun Fm.,Siberia (Ura),-599.05,0.70727,874.5,0.22,0.0015,,,Ediacaran,"Vinogradov and others, 1996",no
+73/93,350,Barakun Fm.,Siberia (Ura),-599.38,0.7079,2526,0.04,0.0012,,,Ediacaran,"Vinogradov and others, 1996",no
+50/93,70,Barakun Fm.,Siberia (Ura),-620,0.70776,1396,,0.001,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+48/93,50,Barakun Fm.,Siberia (Ura),-630.8316,,,,,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+47/93,30,Barakun Fm.,Siberia (Ura),-631.6656,,,,,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+46/93,20,Barakun Fm.,Siberia (Ura),-632.0826,,,,,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+45/93,10,Barakun Fm.,Siberia (Ura),-632.4996,,,,,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+37/05,-1,Dzhemkukan (Bol'shoi Patom) Fm.,Siberia (Ura),-632.9583,,,,,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+35/05,-2,Dzhemkukan (Bol'shoi Patom) Fm.,Siberia (Ura),-633,,,,,,TIMS,Ediacaran,"Pokrovskii and others, 2006",no
+N91-23A,1942,Blueflower,NW Canada,-551,0.708551,791,,0.0016,,TIMS,,"Narbonne and others, 1994",no
+N91-23F,2010,Blueflower,NW Canada,,0.708416,1410,,0.0012,,TIMS,,"Narbonne and others, 1994",no
+N91-23H,2060,Blueflower,NW Canada,,0.708607,1249,,0.001,,TIMS,,"Narbonne and others, 1994",no
+N91-23K,2155,Blueflower,NW Canada,-546,0.708616,1467,,0.0006,,TIMS,,"Narbonne and others, 1994",no
+,868,Buah,Oman,-551.3,0.70883,23,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,864,Buah,Oman,-551.4,0.70894,34,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,840,Buah,Oman,-551.8,0.708669,491,0.62,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,832,Buah,Oman,-552,0.708708,471,0.51,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,732,Shuram,Oman,-553.9,0.708741,474,0.51,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,674,Shuram,Oman,-555,0.708788,327,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,654,Shuram,Oman,-555.4,0.708557,201,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,404,Khufai,Oman,-562.4,0.708553,39,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,388,Khufai,Oman,-566.4,0.70851,118,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,274,Khufai,Oman,-589.9,0.708554,78,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,224,Khufai,Oman,-597.9,0.708411,39,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,200,Khufai,Oman,-601.7,0.708279,29,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,194,Khufai,Oman,-602.6,0.708047,31,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,184,Khufai,Oman,-604.2,0.708533,35,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,176,Khufai,Oman,-605.5,0.708556,28,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes
+,172,M. Bay,Oman,-606.1,0.708502,44,,,,5 collector VG Sector instrument,Ediacaran,"Burns and others, 1994",yes

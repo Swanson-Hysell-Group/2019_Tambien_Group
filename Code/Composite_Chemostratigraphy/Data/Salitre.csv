@@ -1,0 +1,27 @@
+sample,group,basin,unit,description,d18O,d13C,87Sr/86Sr,Al_ppm,Fe_ppm,Sr_ppm,Mn_ppm
+VML-8,Una,Irece,A1,black micritic limestone,-6.4,8.3,0.70769,130,52,461,13
+VML-8cc1,Una,Irece,A1,white calcite,-5.3,9.4,0.70762,4142,342,256,51
+VML-8cc2,Una,Irece,A1,white calcite veins,-5.5,8.7,0.70753,2137,142,898,27
+VML-8bc,Una,Irece,A1,black coarse crist. calcite,-6.2,8.7,0.70746,223,123,1224,11
+JC-54,Una,Irece,A1,black micritic limestone,-5.9,8.1,0.70745,368,58,792,12
+8-M-03g,Una,Irece,A1,oolitic limestone,-5.2,8,0.70759,496,120,374,20
+IR-AM-4,Una,Irece,B1,black micritic limestone,-5,7.4,0.71173,530,238,216,191
+IR-AM-11,Una,Irece,B1,micritic limestone,-6.3,0.6,0.70752,,3013,2384,70
+VML-5,Una,Irece,B1,dolostone,-0.3,0.3,0.71385,5355,204,73,94
+VML-5a,Una,Irece,B1,dolostone,-0.8,0.3,0.7157,5438,75,123,84
+VML-5b,Una,Irece,B1,dolostone,-1,-0.8,0.71776,4843,338,147,150
+VML-6a,Una,Irece,B1,micritic limestone,-7.2,-0.1,0.70782,98,41,896,10
+VML-6b,Una,Irece,B1,micritic limestone,-7,0.3,0.7078,60,42,790,8
+VML-6c,Una,Irece,B1,micritic limestone,-7.5,-0.6,0.70789,237,667,963,88
+VML-7a,Una,Irece,B1,micritic limestone,-6.5,1.1,0.70771,39,41,1275,9
+VML-7b,Una,Irece,B1,micritic limestone,-6.5,1.1,0.70765,52,64,1429,9
+VML-1,Una,Irece,B,micritic limestone,-8.4,-1.9,0.70843,324,2618,339,385
+VML-2,Una,Irece,B,micritic limestone,-6.2,-1.5,0.70847,39,113,278,40
+VML-3,Una,Irece,B,micritic limestone,-6.2,0.3,0.7078,21,42,1717,28
+VML-4a,Una,Irece,B,micritic limestone,-9.4,-4.4,0.70889,158,1182,201,294
+SR AM 1,Bambui,Sao Francisco,2,black oolitic limestone,-7.1,14,0.70767,,160,1430,16
+SR AM 3,Bambui,Sao Francisco,2,black micritic limestone,-9.4,13.4,0.7085,,34700,2020,1465
+SR AM 78,Bambui,Sao Francisco,5,black micritic limestone,-7.3,4.9,0.7083,,460,260,18
+SR AM 86,Bambui,Sao Francisco,5,dark gray micritic limestone,-7.1,5.9,0.70891,,2610,190,34
+SR AM 104,Bambui,Sao Francisco,5,black calcarenite,-6.1,3.8,0.7085,,3070,300,86
+SR AM 111,Bambui,Sao Francisco,5,dark gray micritic limestone,-7,1.4,0.70755,,370,1590,18

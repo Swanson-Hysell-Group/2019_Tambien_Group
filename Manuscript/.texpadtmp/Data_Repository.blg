@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/yuempark/GitHub/2018_Tambien_Group/Manuscript/.texpadtmp/Data_Repository.aux
+The style file: ../gsabull.bst
+Database file #1: ../References.bib
+Warning--can't use both author and editor fields in Halverson2006a
+You've used 73 entries,
+            2885 wiz_defined-function locations,
+            1249 strings with 29911 characters,
+and the built_in function-call counts, 91408 in all, are:
+= -- 10237
+> -- 3266
+< -- 154
++ -- 1648
+- -- 1118
+* -- 5478
+:= -- 9861
+add.period$ -- 73
+call.type$ -- 73
+change.case$ -- 741
+chr.to.int$ -- 70
+cite$ -- 74
+duplicate$ -- 8937
+empty$ -- 4504
+format.name$ -- 1348
+if$ -- 18571
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 886
+newline$ -- 228
+num.names$ -- 294
+pop$ -- 3265
+preamble$ -- 1
+purify$ -- 664
+quote$ -- 0
+skip$ -- 5347
+stack$ -- 0
+substring$ -- 4416
+swap$ -- 8041
+text.length$ -- 139
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 651
+warning$ -- 1
+while$ -- 433
+width$ -- 0
+write$ -- 884
+(There was 1 warning)

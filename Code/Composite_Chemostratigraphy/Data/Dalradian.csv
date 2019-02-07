@@ -1,0 +1,54 @@
+sample,group,subgroup,formation,member,lithology,Sr_ppm,Al_ppm,Si_ppm,K_ppm,Mn_ppm,Fe_ppm,Mn/Sr,Rb/Sr,d13C,d18O,87Sr/86Sr_measured,error,87Sr/86Sr,strat_m
+ISS47,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,1626,601,287,64,139,3296,0.085,0.0009,5.08,-9.95,0.70713,0.00002,0.70711,-513
+ISS42,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,1383,494,259,70,847,2337,0.612,0.0011,4.54,-8.8,,,,-492
+ISS36,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,2680,476,58,87,193,999,0.072,0.0004,4.03,-6.51,0.7067,0.00003,0.70669,-438
+ISS35,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,2169,548,331,165,539,1210,0.249,0.0008,4.17,-7.6,,,,-435
+ISS34,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,1575,541,282,118,613,1639,0.389,0.0013,4.26,-7.61,,,,-432
+ISS32,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,2177,497,213,96,196,365,0.09,0.0023,-1.6,-9.9,0.7069,0.00003,0.70684,-426
+ISS31,Appin,Blair Atholl,Ballygrant,Storakaig,Limestone,1595,215,132,57,633,1615,0.397,0.0001,2.7,-6.68,0.70706,0.00002,0.70705,-423
+ISS29,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1267,438,175,48,351,933,0.277,0.0014,3.87,-7.1,,,,-366
+ISS27,Appin,Blair Atholl,Islay,Kilslevan,Limestone,2141,191,110,24,47,1126,0.022,0.0003,2.95,-6.05,0.70667,0.00002,0.70666,-358
+ISS26,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1898,489,224,52,70,917,0.037,0.0013,2.88,-8.94,0.70686,0.00003,0.70683,-354
+ISS22,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1979,565,38,449,255,741,0.129,0.0003,2.65,-5.99,0.70677,0.00007,0.70676,-328
+ISS17,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1935,762,374,161,34,968,0.018,0.0016,2.63,-8.47,0.70677,0.00002,0.70673,-320
+ISS15,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1812,670,327,87,52,1289,0.028,0.0016,2.66,-9.42,0.70677,0.00003,0.70673,-305
+ISS14,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1945,943,375,896,182,1134,0.094,0.0008,3.39,-7.72,0.70698,0.00005,0.70696,-284
+ISS13,Appin,Blair Atholl,Islay,Kilslevan,Limestone,1575,499,218,93,159,604,0.101,0.0013,3.73,-9.63,,,,-270
+GE0,Appin,Blair Atholl,Islay,,Limestone,642,717,523,539,1039,6975,1.618,0.0066,-4.02,-9.65,,,,-66
+GE1,Appin,Blair Atholl,Islay,,Limestone,1752,361,207,81,95,469,0.054,0.0004,-4.64,-6.23,0.70656,0.00002,0.70655,-65
+GE2,Appin,Blair Atholl,Islay,,Limestone,1569,594,349,227,199,825,0.127,0.0006,-4.61,-9.2,0.70667,0.00002,0.70666,-64
+GE6,Appin,Blair Atholl,Islay,,Dolostone,605,1113,364,695,353,15941,0.583,0.0062,-5.96,-10.69,,,,-60
+GE7,Appin,Blair Atholl,Islay,,Limestone,1004,506,375,152,221,2362,0.22,0.0006,-6.33,-7.99,0.70733,0.00003,0.70732,-59
+GE8,Appin,Blair Atholl,Islay,,Dolostone,553,2105,122,891,430,13246,0.778,0.0036,-5.69,-7.02,0.70813,0.00002,0.70804,-58
+GE9,Appin,Blair Atholl,Islay,,Dolostone,261,2248,712,1402,822,27530,3.15,0.0115,-3.3,-12.24,,,,-57
+GE10,Appin,Blair Atholl,Islay,,Dolostone,369,2595,505,1554,437,26779,1.183,0.0091,-4.66,-12.48,,,,-56
+GE14,Appin,Blair Atholl,Islay,,Limestone,1227,1120,656,1587,300,9004,0.245,0.006,-6.2,-10.05,,,,-52
+GE15,Appin,Blair Atholl,Islay,,Limestone,1420,1051,637,1303,333,8549,0.234,0.0044,-5.6,-9.08,,,,-51
+GE16,Appin,Blair Atholl,Islay,,Limestone,1401,337,243,372,304,2541,0.217,0.0009,-5.33,-7.8,0.70712,0.00002,0.7071,-50
+GE17,Appin,Blair Atholl,Islay,,Limestone,1511,385,228,131,330,3350,0.218,0.0023,-6.08,-10.22,,,,-49
+GE19,Appin,Blair Atholl,Islay,,Limestone,41,479,340,320,424,7026,10.286,0.0031,-6.26,-9.75,,,,-47
+GE20,Appin,Blair Atholl,Islay,,Limestone,38,825,397,176,418,4873,11.001,0.0017,-2.83,-12.58,,,,-46
+GE23,Appin,Blair Atholl,Islay,,Limestone,2221,392,205,109,261,3029,0.118,0.0021,-4.84,-10.23,0.70676,0.00003,0.70671,-43
+GE24,Appin,Blair Atholl,Islay,,Limestone,2689,348,146,49,142,1559,0.053,0.0014,-4.71,-7.51,0.70646,0.00002,0.70643,-42
+GE25,Appin,Blair Atholl,Islay,,Limestone,1962,815,412,370,202,3227,0.103,0.0006,-5.39,-7.52,0.70645,0,0.70643,-41
+GE26,Appin,Blair Atholl,Islay,,Limestone,2449,497,327,159,270,4362,0.11,0.0002,-4.57,-9.06,0.7064,0.00002,0.7064,-40
+GE27,Appin,Blair Atholl,Islay,,Limestone,1185,294,102,28,184,1001,0.155,0.0007,-3.72,-10.13,0.70663,0.00002,0.70661,-39
+GE28,Appin,Blair Atholl,Islay,,Limestone,446,323,86,28,206,968,0.462,0.0023,-1.67,-11.86,,,,-38
+GE30,Appin,Blair Atholl,Islay,,Dolostone,173,5201,499,2980,1064,30298,6.146,,-4.45,-8.95,,,,-36
+ISS9,Appin,Blair Atholl,Islay,Persabus,Dolostone,312,424,220,36,436,8377,1.399,0.0003,0.83,-3.5,,,,-26
+GE42,Appin,Blair Atholl,Islay,,Dolostone,207,1668,620,1636,1622,26322,7.841,0.0125,-5.74,-6.68,,,,-24
+ISS7,Appin,Blair Atholl,Islay,Persabus,Sandstone,71,1455,369,1835,245,5354,3.465,0.0774,-0.73,-16.38,,,,-22
+GE45.5,Appin,Blair Atholl,Islay,,Dolostone,277,1348,469,857,1244,24639,4.497,0.0038,-2.92,-7.36,,,,-20.5
+ISS6,Appin,Blair Atholl,Islay,Persabus,Dolostone,292,495,401,1028,719,15794,2.464,0.0101,0.15,-9.48,,,,-20
+ISS5,Appin,Blair Atholl,Islay,Persabus,Dolostone,290,221,166,103,897,13846,3.089,0.0005,0.09,-10,,,,-18
+GE57,Appin,Blair Atholl,Islay,,Dolostone,300,808,485,376,558,19746,1.857,0.0033,0.7,-8.93,,,,-9
+GE58,Appin,Blair Atholl,Islay,,Dolostone,128,1514,470,1301,410,10344,3.199,0.0187,-0.01,-8.77,,,,-8
+GE59,Appin,Blair Atholl,Islay,,Dolostone,286,947,478,995,605,18852,2.115,0.0035,0.32,-5.6,,,,-7
+GE60,Appin,Blair Atholl,Islay,,Dolostone,196,2572,375,2027,496,13098,2.535,0.0177,0.2,-6.63,,,,-6
+GE93,Argyll,Islay,Port Askaig,,Dolostone,415,938,449,732,1076,28017,2.593,0.0041,0.58,-8.18,,,,27
+GE95,Argyll,Islay,Port Askaig,,Dolostone,494,421,299,46,571,22359,1.155,0.0004,-1.48,-12.12,0.71139,0.00002,0.71138,29
+GE96,Argyll,Islay,Port Askaig,,Dolostone,215,1869,283,1259,639,17818,2.969,0.0088,0.32,-7.9,,,,30
+IS24,Argyll,Islay,Bonahaven,Margadale,Dolostone,133,1777,520,2484,502,7419,3.775,,-4.94,-12.32,,,,
+IS64.5,Argyll,Islay,Bonahaven,Margadale,Dolostone,148,2312,482,2805,514,8315,3.463,,-5.5,-12.34,,,,
+IS76,Argyll,Islay,Bonahaven,Margadale,Dolostone,142,2320,437,3129,532,9499,3.739,0.0364,-7.1,-11.99,0.72494,0.00002,0.72406,
+IS86,Argyll,Islay,Bonahaven,Margadale,Dolostone,157,885,328,1069,759,8868,4.833,,-7.06,-12.93,,,,

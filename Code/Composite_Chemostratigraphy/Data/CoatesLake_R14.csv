@@ -1,0 +1,52 @@
+section,sample,lithology,formation,strat_m,cumulative_thickness,d13C,d18O,87Sr/86Sr,Sr_ppm,carb_percent
+6YR,125,gy micrite,Coppercap,97.5,97.5,-6.09,-6.17,0.71266,341,37.3
+6YR,128,gy micrite,Coppercap,99.4,99.4,-4.42,-4.7,0.71688,157,79.3
+6YR,129,gy micrite,Coppercap,124.1,124.1,-3.65,-5.01,0.7155,636,27.2
+6YR,130,gy micrite,Coppercap,131.2,131.2,-5.1,-4.74,0.71178,,
+6YR,123,dgy micrite,Coppercap,145.1,145.1,-4.94,-5.58,0.71324,,
+6YR,122,dgy micrite,Coppercap,152.5,152.5,-4.87,-4.9,0.71289,198,61.1
+6YR,120,dgy wacke,Coppercap,168.1,168.1,-5.02,-6.2,0.70787,888,57.2
+6YR,119,dgy micrite,Coppercap,173.2,173.2,-3.28,-4.66,0.71352,,
+6YR,118,dgy micrite,Coppercap,180.7,180.7,-5.32,-7.07,0.7128,714,15.1
+6YR,117,dgy micrite,Coppercap,188.2,188.2,-4.29,-5.58,0.70644,327,51.5
+6YR,116,dgy micrite,Coppercap,194.8,194.8,-4.54,-3.77,0.70969,287,42.3
+6YR,115,dgy microbial,Coppercap,201.8,201.8,-2.19,-4.85,0.71457,,
+6YR,114,dgy micrite,Coppercap,208.5,208.5,-3.39,-6.92,0.70939,,
+6YR,113,gy gs,Coppercap,217,217,-2.37,-2.9,0.71107,251,95.1
+6YR,112,gy microbial,Coppercap,222.5,222.5,-0.86,-5.94,0.70781,,
+6YR,111,dgy gs,Coppercap,229.8,229.8,0.09,-4.73,0.70751,684,50.2
+6YR,110,gy gs,Coppercap,235.7,235.7,0.29,-3.77,0.70691,1446,60.1
+6YR,109,gy gs,Coppercap,242.8,242.8,-1.53,-5.3,0.70683,1699,94.3
+6YR,108,gy gs,Coppercap,249.9,249.9,0.71,-6.76,0.70706,1142,84.3
+6YR,107,dgy micrite,Coppercap,255.2,255.2,0.71,-4.36,0.70704,1187,59.1
+6YR,106,dgy micrite,Coppercap,262.6,262.6,0.41,-2.79,0.70713,772,83.3
+6YR,105,dgy micrite,Coppercap,268.7,268.7,2,-3.98,0.70691,1189,89.7
+6YR,104,dgy micrite,Coppercap,277.2,277.2,2.98,-4.04,0.70669,828,89.8
+6YR,103,dgy gs,Coppercap,284.2,284.2,2.48,-3.74,0.70674,1166,50.7
+6YR,102,dgy micrite,Coppercap,292,292,2.64,-3.53,0.70668,1148,50.2
+6YR,101,gy gs,Coppercap,299.2,299.2,4.42,-4.27,0.7066,2048,86.9
+6YR,100,dgy gs,Coppercap,305.2,305.2,3.3,-5.3,0.70659,1205,98.7
+6YR,99,dgy micrite,Coppercap,311.7,311.7,4.72,-4.44,0.70648,982,99.9
+6YR,98,dgy gs wacke,Coppercap,315.2,315.2,4.95,-4.13,0.7065,1355,98.3
+6YR,97,dgy micrite,Coppercap,321.2,321.2,6.15,-4.33,0.70648,1016,98.8
+6YR,96,dgy microbial,Coppercap,325.5,325.5,6.33,-3.52,0.7065,1267,98.1
+6YR,95,dgy micrite,Coppercap,331.2,331.2,6.59,-3.66,0.70649,1117,93.9
+6YR,94,dgy micrite,Coppercap,337.2,337.2,6.53,-3.93,0.70651,807,99.9
+6YR,93,dgy micrite,Coppercap,341.8,341.8,5.08,-5.63,0.70666,973,98.3
+6YR,92,dgy micrite,Coppercap,347.2,347.2,5.3,-5.45,0.70667,902,98
+6YR,91,dgy micrite,Coppercap,353.1,353.1,7.04,-7.05,0.70653,695,101.1
+6YR,90,dgy micrite,Coppercap,358.2,358.2,5.72,-5.12,0.70664,1489,95.6
+6YR,89,"gy gs, ev",Coppercap,363.4,363.4,5.76,-4.9,0.70657,,
+6YR,88,gy gs,Coppercap,368.9,368.9,6.46,-5.26,0.70665,1866,68.4
+6YR,87,gy gs,Coppercap,374.7,374.7,6.72,-4.43,0.70667,,
+6YR,86,dgy micrite,Coppercap,376,376,5.35,-4.13,0.70668,1957,80.5
+6YR,85,dgy micrite,Coppercap,379.9,379.9,6.28,-2.6,0.70667,1583,76.9
+6YR,84,dgy gs wacke,Coppercap,393.5,393.5,3.69,-4.37,0.70665,1428,82.5
+6YR,83,wht brecc dol,Coppercap,396.7,396.7,-7.3,-6.41,0.70662,,
+6YR,82,wht brecc dol,Coppercap,402.4,402.4,6.08,-15.88,0.70714,,
+6YR,81,wht brecc dol,Coppercap,405.2,405.2,6.1,-15.15,0.70762,204,81.5
+6YR,80,gy micrite,Coppercap,408.2,408.2,5.7,-11.45,0.70841,295,100.1
+6YR,79,gy gs,Coppercap,413.7,413.7,3.65,-8.65,0.70981,366,54.3
+6YR,78,gy microbial,Coppercap,416.6,416.6,4.43,-10.79,0.70987,344,81.4
+6YR,77,diamictite,Coppercap,416.7,416.7,3.68,-10.35,0.7105,704,24.7
+6YR,76,gy gs wacke,Coppercap,421.2,421.2,2.7,-10.95,0.71021,,

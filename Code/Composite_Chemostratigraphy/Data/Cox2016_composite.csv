@@ -1,0 +1,95 @@
+sample,unit,location,Cox_age,d13C,d18O,87Sr/86Sr_primary,Sr_ppm,Mn/Sr,Rb/Sr,reference
+anchor,anchor,anchor,665,,,,,,,anchor
+W1623.5,Johnny's Creek Mb.,Amadeus basin,793.7,6.5,-7.1,0.70639,,,,This paper
+W1704.7,Johnny's Creek Mb.,Amadeus basin,798.8,4.9,-8.7,0.70639,,,,This paper
+W1734.2,Johnny's Creek Mb.,Amadeus basin,800,6.1,-4.9,0.70652,,,,This paper
+W1640.5,Johnny's Creek Mb.,Amadeus basin,795.1,6.8,-6.9,0.70637,,,,This paper
+GR9-369.5,Upper Ymer Gp.,East Greenland,793.4,5.2,-7.5,0.70684,4280,0,0.03,This paper
+GR9-337.4,Upper Ymer Gp.,East Greenland,794.5,5.4,-7.8,0.70678,2630,0.01,0.05,This paper
+GR9-326,Upper Ymer Gp.,East Greenland,794.9,5,-7.7,0.70694,2110,0.02,0.07,This paper
+GR9-310,Upper Ymer Gp.,East Greenland,795.4,5.2,-6.9,0.70675,3840,0.01,0.04,This paper
+GR9-297,Upper Ymer Gp.,East Greenland,795.9,,,0.70691,1180,0.04,0.12,This paper
+GR9-274,Upper Ymer Gp.,East Greenland,796.4,4.9,-7.5,0.70688,1230,0.01,0.12,This paper
+G332-489.9,Russoya Mb.,Svalbard,731.4,-4,-5,0.70675,,,,Halverson et al. (2007)
+G22-9.1,Russoya Mb.,Svalbard,737.3,0.9,-4.1,0.70674,623,0.07,,Halverson et al. (2007)
+G22-1.3,Russoya Mb.,Svalbard,738,,,0.70672,542,0.06,,Halverson et al. (2007)
+G332-377.6,Russoya Mb.,Svalbard,742.9,7.1,-4.1,0.70675,,,,Halverson et al. (2007)
+G523-31.4,Russoya Mb.,Svalbard,744.5,4.4,-4.6,0.70679,354,,,This paper
+G523-29.3,Russoya Mb.,Svalbard,744.7,4,-3.7,0.70662,1290,,,This paper
+G523-27,Russoya Mb.,Svalbard,744.8,3.6,-3.9,0.707,1120,,,This paper
+G523-24.8,Russoya Mb.,Svalbard,745,3,-4.3,0.70668,990,,,This paper
+G523-23.3,Russoya Mb.,Svalbard,745.1,2.7,-5.2,0.70701,899,,,This paper
+G523-22.4,Russoya Mb.,Svalbard,745.3,2.6,-5,0.70669,1360,,,This paper
+G4-49.1,Russoya Mb.,Svalbard,746.5,2.7,-6.4,0.70677,358,0.16,,Halverson et al. (2007)
+M6-131.8,Backlund. Fm.,Svalbard,774.5,8.2,-4.9,0.70687,1860,0,,Halverson et al. (2007)
+M6-102.9,Backlund. Fm.,Svalbard,775.9,8,-5.9,0.7069,2740,0.01,,Halverson et al. (2007)
+G15-90.1,Backlund. Fm.,Svalbard,776.4,7.2,-5.9,0.70693,2560,0.02,,Halverson et al. (2007)
+G15-78.6,Backlund. Fm.,Svalbard,776.9,7.5,-5.8,0.70695,2980,0.01,,Halverson et al. (2007)
+G15-45.6,Backlund. Fm.,Svalbard,778.4,7.9,-5.3,0.70697,2540,0,,Halverson et al. (2007)
+G15-29.8,Backlund. Fm.,Svalbard,779.1,8.2,-6.1,0.70697,3380,0.01,,Halverson et al. (2007)
+G35-25.8,Svanberg. Fm.,Svalbard,797.3,4.9,-7.5,0.70649,739,0.02,,Halverson et al. (2007)
+G35-0.3,Svanberg. Fm.,Svalbard,798,5.2,-8.3,0.70634,942,0.01,,Halverson et al. (2007)
+G341-445.3,Svanberg. Fm.,Svalbard,799,4.3,-6.1,0.70661,1030,0.03,,Halverson et al. (2007)
+G37-53.0,Svanberg. Fm.,Svalbard,799.1,6.2,-6.7,0.70617,1890,0.01,,Halverson et al. (2007)
+G37-28.8,Svanberg. Fm.,Svalbard,799.9,4.1,-6.5,0.70651,739,0.1,,Halverson et al. (2007)
+G19-71.8,Svanberg. Fm.,Svalbard,800.3,6,-6.3,0.70625,993,0.07,,Halverson et al. (2007)
+G19-57.2,Svanberg. Fm.,Svalbard,800.6,5.9,-6.8,0.70629,964,0.06,,Halverson et al. (2007)
+G37-27.8,Svanberg. Fm.,Svalbard,800.8,,,0.70644,780,0.09,,Halverson et al. (2007)
+G155-130,Svanbergfjellet,Svalbard,802.7,-2.45,-5.91,0.70636,651,0.05,,Halverson et al. (2007)
+G155-124.6,Svanbergfjellet,Svalbard,802.9,0.13,-6.42,0.70639,1040,0.01,,Halverson et al. (2007)
+G341-282.5,Svanberg. Fm.,Svalbard,803.6,0,-5.5,0.70635,536,0.07,,Halverson et al. (2007)
+G155-96.1,Svanbergfjellet,Svalbard,803.6,-1.68,-6.66,0.70646,753,0.02,,Halverson et al. (2007)
+G155-88.2,Svanbergfjellet,Svalbard,803.9,-0.92,-6.44,0.70646,584,0.02,,Halverson et al. (2007)
+G341-215.6,Svanberg. Fm.,Svalbard,805.3,-0.7,-6.9,0.70634,930,0.02,,Halverson et al. (2007)
+G341-205.1,Grusdiev. Fm.,Svalbard,805.6,-2.1,-7.3,0.70644,368,0.08,,Halverson et al. (2007)
+G341-178,Grusdiev. Fm.,Svalbard,806.3,-0.3,-7.3,0.70642,806,0.02,,Halverson et al. (2007)
+M9-125.6,Grusdiev. Fm.,Svalbard,806.6,0.6,-8.5,0.7066,1240,0,,Halverson et al. (2007)
+G341-146.6,Grusdiev. Fm.,Svalbard,807,0.1,-6.9,0.70637,1480,0.01,,Halverson et al. (2007)
+M9-83.4,Grusdiev. Fm.,Svalbard,807.6,-0.3,-8.5,0.70641,2030,0,,Halverson et al. (2007)
+M9-55,Grusdiev. Fm.,Svalbard,808.3,-0.7,-9.2,0.7064,2280,0,,Halverson et al. (2007)
+G33-145.9,Grusdiev. Fm.,Svalbard,809.5,-1.1,-8.3,0.70643,1240,0,,Halverson et al. (2007)
+G33-131.7,Grusdiev. Fm.,Svalbard,809.8,-1.2,-8.5,0.70644,594,0.02,,Halverson et al. (2007)
+G148-158.7,Grusdiev. Fm.,Svalbard,810,-1.2,-8.1,0.70635,696,0.02,,Halverson et al. (2007)
+G148-136.3,Grusdiev. Fm.,Svalbard,810.5,0.3,-8.8,0.70624,282,0.1,,Halverson et al. (2007)
+G148-126,Grusdiev. Fm.,Svalbard,810.8,6.4,-7,0.70625,1720,0.01,,Halverson et al. (2007)
+G33-91,Grusdiev. Fm.,Svalbard,811,5.8,-10.6,0.70652,514,0.01,,Halverson et al. (2007)
+G33-62.2,Grusdiev. Fm.,Svalbard,811.6,7.3,-7.1,0.70628,1690,0,,Halverson et al. (2007)
+G33-14.5,Grusdiev. Fm.,Svalbard,812.7,6.6,-6.3,0.70626,2530,0,,Halverson et al. (2007)
+G336-281.7,Grusdiev. Fm.,Svalbard,814.4,7,-5.7,0.70627,2280,0.01,,Halverson et al. (2007)
+6YR-393.5,Copper Cap Fm.,Mackenzie Mts,718.8,3.7,-4.4,0.70665,1430,0.058,,Rooney et al. (2014)
+6YR-379.9,Copper Cap Fm.,Mackenzie Mts,719.2,6.3,-2.6,0.70667,1580,0.032,,Rooney et al. (2014)
+6YR-376,Copper Cap Fm.,Mackenzie Mts,719.3,5.3,-4.1,0.70668,1960,0.038,,Rooney et al. (2014)
+6YR-368.9,Copper Cap Fm.,Mackenzie Mts,719.5,6.5,-5.3,0.70665,1870,0.051,,Rooney et al. (2014)
+6YR-358.2,Copper Cap Fm.,Mackenzie Mts,719.9,5.7,-5.1,0.70664,1490,0.251,,Rooney et al. (2014)
+6YR-331.2,Copper Cap Fm.,Mackenzie Mts,721.3,6.6,-3.7,0.70649,1120,0.046,,Rooney et al. (2014)
+6YR-325.5,Copper Cap Fm.,Mackenzie Mts,721.6,6.3,-3.5,0.7065,1270,0.058,,Rooney et al. (2014)
+6YR-321.2,Copper Cap Fm.,Mackenzie Mts,721.9,6.1,-4.3,0.70648,1020,0.068,,Rooney et al. (2014)
+6YR-315.2,Copper Cap Fm.,Mackenzie Mts,722.3,4.9,-4.1,0.7065,1340,0.08,,Rooney et al. (2014)
+6YR-311.7,Copper Cap Fm.,Mackenzie Mts,722.5,4.7,-4.4,0.70648,980,0.06,,Rooney et al. (2014)
+6YR-305.2,Copper Cap Fm.,Mackenzie Mts,722.9,3.3,-5.3,0.70659,1210,0.056,,Rooney et al. (2014)
+6YR-299.2,Copper Cap Fm.,Mackenzie Mts,723.2,4.4,-4.3,0.7066,2050,0.048,,Rooney et al. (2014)
+6YR-292,Copper Cap Fm.,Mackenzie Mts,723.6,2.6,-3.5,0.70668,1150,0.618,,Rooney et al. (2014)
+6YR-284.2,Copper Cap Fm.,Mackenzie Mts,724.1,2.5,-3.7,0.70674,1170,0.134,,Rooney et al. (2014)
+6YR-268.7,Copper Cap Fm.,Mackenzie Mts,725,2,-4,0.70691,1190,0.086,,Rooney et al. (2014)
+6YR-255.2,Copper Cap Fm.,Mackenzie Mts,725.8,0.7,-4.4,0.70704,1190,0.088,,Rooney et al. (2014)
+6YR-249.9,Copper Cap Fm.,Mackenzie Mts,726.2,0.7,-6.8,0.70706,1140,0.022,,Rooney et al. (2014)
+6YR-242.8,Copper Cap Fm.,Mackenzie Mts,726.6,-1.5,-5.3,0.70683,1700,0.068,,Rooney et al. (2014)
+6YR-235.7,Copper Cap Fm.,Mackenzie Mts,727,0.3,-3.8,0.70691,1450,0.067,,Rooney et al. (2014)
+G12-467.7,Little Dal,Mackenzie Mts,835.3,4,-8.5,0.70622,389,0.07,,Halverson et al. (2007)
+G12-417.6,Little Dal,Mackenzie Mts,836.8,4.48,-7.1,0.7055,573,0,,Halverson et al. (2007)
+G12-377.7,Little Dal,Mackenzie Mts,837.9,4.01,-6,0.70613,389,0.07,,Halverson et al. (2007)
+G12-354.1,Little Dal,Mackenzie Mts,838.6,3.65,-6,0.70583,556,0.05,,Halverson et al. (2007)
+G12-333.3,Little Dal,Mackenzie Mts,839.2,4.07,-5.9,0.70577,692,0.05,,Halverson et al. (2007)
+G12-281.8,Little Dal,Mackenzie Mts,840.6,5.11,-6.3,0.70553,395,0.03,,Halverson et al. (2007)
+G12-222.6,Little Dal,Mackenzie Mts,842.1,5.34,-7,0.70593,528,0.06,,Halverson et al. (2007)
+G12-215.8,Little Dal,Mackenzie Mts,842.3,5.56,-6.3,0.70588,412,0.09,,Halverson et al. (2007)
+G12-123.3,Little Dal,Mackenzie Mts,844.7,4.93,-7.3,0.70558,361,0,,Halverson et al. (2007)
+G12-100,Little Dal,Mackenzie Mts,845.3,4.76,-8.1,0.70561,415,0,,Halverson et al. (2007)
+GO117-47.2,Upper Shale,Ogilvie Mts,795,7.42,-4.9,0.7065,427,,,This paper
+GO117-0.6,Upper Shale,Ogilvie Mts,797,6.55,-5.5,0.7066,1740,,,This paper
+GS4-493,Sukhaya Tunguska Fm.,Turukhansk (Siberia),1022.2,3.2,-6.6,0.70561,731,0.06,0.09,This paper
+GS4-457,Sukhaya Tunguska Fm.,Turukhansk (Siberia),1026.3,1.6,-6.7,0.70564,1120,0.02,0.13,This paper
+GS4-436,Sukhaya Tunguska Fm.,Turukhansk (Siberia),1028.5,1.8,-6.8,0.70562,1070,0.01,0.06,This paper
+GS4-401,Sukhaya Tunguska Fm.,Turukhansk (Siberia),1032.5,1.5,-6.6,0.70573,911,0.04,0.16,This paper
+GS4-371,Sukhaya Tunguska Fm.,Turukhansk (Siberia),1035.9,0.8,-7.3,0.70584,781,0.05,0.18,This paper
+GS14-100,Sukhaya Tunguska Fm.,Turukhansk (Siberia),1035.5,0.7,-8.2,0.70585,975,0.05,0.14,This paper

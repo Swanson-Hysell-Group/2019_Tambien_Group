@@ -1,0 +1,229 @@
+sample,strat_m,Sr_ppm,Mn_ppm,Fe_ppm,perc_dissolution,Mg/Ca,87Sr/86Sr,lithology,d13C,d18O,section,formation
+Tsag. 1,0.4,2900,225,117,95,0.0019,0.706754,,,,,Tsagaan Oloom
+Tayshir 2,4,1350,303,522,94,0.0054,0.706796,,,,,Tsagaan Oloom
+Tsag. 2*,10,960,124,103,77,0.0033,0.70699,,,,,Tsagaan Oloom
+Tsag. 3,16,1500,140,217,94,0.0022,0.706944,,,,,Tsagaan Oloom
+Tsag. 4,22,1060,157,153,96,0.002,0.70705,,,,,Tsagaan Oloom
+Tsag. 5,30,1500,156,2000,91,0.0024,0.707094,,,,,Tsagaan Oloom
+Tsag. 6,35,650,15,20,98,,0.7072,,,,,Tsagaan Oloom
+Tsag. 7,40,1700,12,30,97,0.0013,0.707164,,,,,Tsagaan Oloom
+Tsag. 8,45,950,18,35,97,0.0015,0.707224,,,,,Tsagaan Oloom
+Tsag. 9*,50,,13,20,97,,0.707288,,,,,Tsagaan Oloom
+Tsag. 19-TS7*,360,934,,,,,0.707345,,,,,Tsagaan Oloom
+Tsag. 20-TS8*,380,1110,,,,,0.707247,,,,,Tsagaan Oloom
+Tsag. 11*,392,,,,95,,0.708273,,,,,Tsagaan Oloom
+Tsag. 20-TS9*,430,60,,,,,0.707253,,,,,Tsagaan Oloom
+Tsag. 20-TS10*,475,2043,,,,,0.707693,,,,,Tsagaan Oloom
+Tsag. 12*,510,,,,,,0.707864,,,,,Tsagaan Oloom
+Tsag. 13*,520,,,,97,,0.708297,,,,,Tsagaan Oloom
+Tsag. 14*,530,95,86,1400,87,0.0022,0.708355,,,,,Tsagaan Oloom
+Tsag. 16*,540,1500,100,1300,60,0.0021,0.707887,,,,,Tsagaan Oloom
+KTN 1*,554,45,120,788,98,,0.707856,,,,,Tsagaan Oloom
+KTN 2*,559,39.5,45,1154,98,,0.708095,,,,,Tsagaan Oloom
+Tsag. 21,564,2300,26,128,94,0.0013,0.707871,,,,,Tsagaan Oloom
+KTN 3*,564,43,52,1308,98,,0.70805,,,,,Tsagaan Oloom
+KTN 4*,569,34,30,438,98,,0.708122,,,,,Tsagaan Oloom
+Bay S1a*,596,122,204,1100,73,,0.70864,,,,,Tsagaan Oloom
+Bay S0,598,990,183,1070,86,0.0028,0.70853,,,,,Tsagaan Oloom
+Tsag. 20,618,2300,28,410,90,0.0017,0.708417,,,,,Tsagaan Oloom
+Bay S4,618,620,38,150,95,0.0047,0.708527,,,,,Tsagaan Oloom
+Bay S5,623,755,114,266,97,0.0042,0.708425,,,,,Tsagaan Oloom
+Tsag. 24,780,1080,165,901,94,0.0012,0.708553,,,,,Tsagaan Oloom
+Bay. By O2,800,550,10,46,96,,0.70843,,,,,Tsagaan Oloom
+Bay. Bd14*,800,510,1170,571,98,,0.708487,,,,,Tsagaan Oloom
+Bay 2*,837,520,113,1170,96,,0.708562,,,,,Tsagaan Oloom
+Bay 4*,847,1090,1600,1220,97,0.0029,0.708439,,,,,Tsagaan Oloom
+Bay 33,870,620,79,476,95,0.0067,0.708458,,,,,Tsagaan Oloom
+Tsag. 25*,870,284,39,306,86,0.002,0.708478,,,,,Tsagaan Oloom
+Bay 40*,880,1120,274,247,75,0.0051,0.708574,,,,,Tsagaan Oloom
+Bay 42*,882,1520,994,715,66,0.0057,0.708648,,,,,Tsagaan Oloom
+Bay 44*,890,1500,2700,2010,77,0.0042,0.7085,,,,,Tsagaan Oloom
+Tsag. 26*,895,980,332,,81,0.0022,0.708687,,,,,Tsagaan Oloom
+16-TS1,0.3,,,,,,,C bmud lam,-0.5,-8.1,Tsagaan Gol,Tsagaan Oloom
+16-TS1,0.3,,,,,,,C bmud lam,-0.5,-5.8,Tsagaan Gol,Tsagaan Oloom
+16-TS2*,5.3,,,,,,,C bmud lam,-1.5,-16.7,Tsagaan Gol,Tsagaan Oloom
+16-TS2*,5.3,,,,,,,C bmud lam,-1.8,-16.7,Tsagaan Gol,Tsagaan Oloom
+16-TS3*,12.3,,,,,,,C bmud pel org,-1.1,-14.1,Tsagaan Gol,Tsagaan Oloom
+16-TS3*,12.3,,,,,,,C bmud pel org,-0.9,-14.3,Tsagaan Gol,Tsagaan Oloom
+16-VK1-3352,14,,,,,,,Calcite,0.4,-11,Tsagaan Gol,Tsagaan Oloom
+16-TS4,15.3,,,,,,,C bmud pel org,0.1,-14.2,Tsagaan Gol,Tsagaan Oloom
+16-TS4,15.3,,,,,,,C bmud pel org,0.5,-11.5,Tsagaan Gol,Tsagaan Oloom
+18-VK2-3358,56,,,,,,,Calcite,1.6,-13.8,Tsagaan Gol,Tsagaan Oloom
+18-VK3-3358,56,,,,,,,Dolomite,2.7,-11.5,Tsagaan Gol,Tsagaan Oloom
+18-TS5*,61,,,,,,,FC bmud lam,1.3,-10.9,Tsagaan Gol,Tsagaan Oloom
+18-TS5*,61,,,,,,,FC bmud lam,1.9,-9.4,Tsagaan Gol,Tsagaan Oloom
+18-VK4-3360,66,,,,,,,Calcite,8,-6.9,Tsagaan Gol,Tsagaan Oloom
+18-VK5-3361,81,,,,,,,Calcite,7.8,-10.2,Tsagaan Gol,Tsagaan Oloom
+18-VK6-3362,96,,,,,,,Calcite,9.1,-4,Tsagaan Gol,Tsagaan Oloom
+18-VK7-3363,101,,,,,,,Calcite,6,-7.8,Tsagaan Gol,Tsagaan Oloom
+19-VK8-3364,120,,,,,,,Calcite,6.8,-8.1,Tsagaan Gol,Tsagaan Oloom
+19-VK9-3365,140,,,,,,,Calcite,4.7,-9.6,Tsagaan Gol,Tsagaan Oloom
+19-VK10-3368,160,,,,,,,Calcite,8.9,-8.3,Tsagaan Gol,Tsagaan Oloom
+19-VK11-3367,180,,,,,,,Calcite,9.1,-7.8,Tsagaan Gol,Tsagaan Oloom
+19-VK12-3368,205,,,,,,,Dolomite,11,-2.3,Tsagaan Gol,Tsagaan Oloom
+19-VK13-3369,220,,,,,,,Calcite,10,-4.8,Tsagaan Gol,Tsagaan Oloom
+19-VK-3370,235,,,,,,,Calcite vein,4,-30.4,Tsagaan Gol,Tsagaan Oloom
+19-VK14-3371,245,,,,,,,Calcite,9.8,-2.8,Tsagaan Gol,Tsagaan Oloom
+19-VK15-3372,260,,,,,,,Calcite,10.3,-2.7,Tsagaan Gol,Tsagaan Oloom
+19-VK 16-3373,275,,,,,,,Dolomite,10.7,-2.1,Tsagaan Gol,Tsagaan Oloom
+19-VK 17-3375,285,,,,,,,Calcite,11,-0.4,Tsagaan Gol,Tsagaan Oloom
+19-VK 18-3376,305,,,,,,,Calcite,10.3,-3.8,Tsagaan Gol,Tsagaan Oloom
+19-VK 19-3377,315,,,,,,,Calcite,10.2,-3.8,Tsagaan Gol,Tsagaan Oloom
+19-VK20-3378,335,,,,,,,Calcite,10,-3.9,Tsagaan Gol,Tsagaan Oloom
+19-TS7,360,,,,,,,C blam vg spar,9.3,-6.2,Tsagaan Gol,Tsagaan Oloom
+19-TS7,360,,,,,,,C blam vg spar,9.6,-4.1,Tsagaan Gol,Tsagaan Oloom
+19-VK22-3379,365,,,,,,,Calcite,10.8,-2.8,Tsagaan Gol,Tsagaan Oloom
+20-VK23-3380,379,,,,,,,Dolomite,11.4,-4.8,Tsagaan Gol,Tsagaan Oloom
+20-TS8,380,,,,,,,C b one spar,11.1,-3.9,Tsagaan Gol,Tsagaan Oloom
+20-TS8,380,,,,,,,C b one spar,10.7,-42,Tsagaan Gol,Tsagaan Oloom
+20-VK24-3381,381,,,,,,,Dolomite,3.4,-2.2,Tsagaan Gol,Tsagaan Oloom
+20-VK25-3382,387,,,,,,,Dolomite,2.8,-13.1,Tsagaan Gol,Tsagaan Oloom
+20-VK26-3383,392,,,,,,,Dolomite,3.3,-4.6,Tsagaan Gol,Tsagaan Oloom
+20-VK27-3385,397,,,,,,,Calcite,6.5,-7.9,Tsagaan Gol,Tsagaan Oloom
+20-VK28-3387,400,,,,,,,Calcite,6.4,-8.5,Tsagaan Gol,Tsagaan Oloom
+20-VK28-3387,400,,,,,,,Dolomite,2.6,-5.8,Tsagaan Gol,Tsagaan Oloom
+20-VK-29-338,410,,,,,,,Dolomite,8,-9.1,Tsagaan Gol,Tsagaan Oloom
+20-VK30-3389,415,,,,,,,Dolomite,3.2,-8,Tsagaan Gol,Tsagaan Oloom
+20-VK31-3390,425,,,,,,,Dolomite,2.2,-6.8,Tsagaan Gol,Tsagaan Oloom
+20-TS9,430,,,,,,,D mud ic,4.9,-5,Tsagaan Gol,Tsagaan Oloom
+20-TS9,430,,,,,,,D mud ic,6.5,-5.6,Tsagaan Gol,Tsagaan Oloom
+20-VK32-3391,445,,,,,,,Calcite,5.6,-11,Tsagaan Gol,Tsagaan Oloom
+20-VK33-3302,455,,,,,,,Dolomite,8,-5.5,Tsagaan Gol,Tsagaan Oloom
+20-VK33-3392,455,,,,,,,Calcite,5.8,-11,Tsagaan Gol,Tsagaan Oloom
+20-VK34-3393,472,,,,,,,Calcite,7.6,-11.3,Tsagaan Gol,Tsagaan Oloom
+20-VK34-3393,472,,,,,,,Dolomite,8,-9.3,Tsagaan Gol,Tsagaan Oloom
+20-TS10,475,,,,,,,D bmud ic org,7.6,-11.3,Tsagaan Gol,Tsagaan Oloom
+20-TS10,475,,,,,,,D bmud ic org,7.5,-8.5,Tsagaan Gol,Tsagaan Oloom
+21-VK35-3394,482,,,,,,,Dolomite,6.6,-9.9,Tsagaan Gol,Tsagaan Oloom
+21-TS11,484,,,,,,,D mud pel,4.3,-3.6,Tsagaan Gol,Tsagaan Oloom
+21-TS11,484,,,,,,,D mud pel,0,-8.7,Tsagaan Gol,Tsagaan Oloom
+21-VK36-3395,497,,,,,,,Calcite,5.3,-11.3,Tsagaan Gol,Tsagaan Oloom
+21-VK36-3395,497,,,,,,,Dolomite,3.6,-9.3,Tsagaan Gol,Tsagaan Oloom
+22-TS12,510,,,,,,,C mud pel spar,5.3,-8.4,Tsagaan Gol,Tsagaan Oloom
+22-TS12,510,,,,,,,C mud pel spar,4.8,-8.8,Tsagaan Gol,Tsagaan Oloom
+22-VK37-3396,521.5,,,,,,,Calcite,8.2,-9.3,Tsagaan Gol,Tsagaan Oloom
+22-VK38-3397,529,,,,,,,Dolomite,4.2,-3.3,Tsagaan Gol,Tsagaan Oloom
+22-VK39-3398,546,,,,,,,Dolomite,3.5,-4.2,Tsagaan Gol,Tsagaan Oloom
+22-TS13,564,,,,,,,C wkst pel ic,4.7,-7.9,Tsagaan Gol,Tsagaan Oloom
+22-TS13,564,,,,,,,C wkst pel ic,4.5,-8.2,Tsagaan Gol,Tsagaan Oloom
+23-VK40-3399,569,,,,,,,Dolomite,1.8,-4.1,Tsagaan Gol,Tsagaan Oloom
+23-TS15*,571,,,,,,,FD mud lam,3.3,-2.8,Tsagaan Gol,Tsagaan Oloom
+23-TS15*,571,,,,,,,FD mud lam,-0.3,-2.3,Tsagaan Gol,Tsagaan Oloom
+23-TS16,576,,,,,,,D wkst ic,3.6,-1.7,Tsagaan Gol,Tsagaan Oloom
+23-TS16,576,,,,,,,D wkst ic,3.7,-1,Tsagaan Gol,Tsagaan Oloom
+23-TS17,582,,,,,,,D mud spar,3.3,-0.8,Tsagaan Gol,Tsagaan Oloom
+23-TS17,582,,,,,,,D mud spar,3.4,0,Tsagaan Gol,Tsagaan Oloom
+23-TS18,587,,,,,,,D mud cmb FDv,2.3,-1.4,Tsagaan Gol,Tsagaan Oloom
+23-TS18,587,,,,,,,D mud cmb FDv,2.4,-2.9,Tsagaan Gol,Tsagaan Oloom
+23-VK41-3400,590,,,,,,,Dolomite,2.2,-3.6,Tsagaan Gol,Tsagaan Oloom
+23-TS19,592,,,,,,,D one grst P,-0.6,-2.5,Tsagaan Gol,Tsagaan Oloom
+23-TS19,592,,,,,,,D one grst P,-0.6,-0.5,Tsagaan Gol,Tsagaan Oloom
+23-TS20,595,,,,,,,D strom spar vg,0.8,-0.5,Tsagaan Gol,Tsagaan Oloom
+23-TS20,595,,,,,,,D strom spar vg,-0.6,-1.8,Tsagaan Gol,Tsagaan Oloom
+23-VK42-3401,595,,,,,,,Dolomite,2.4,-4,Tsagaan Gol,Tsagaan Oloom
+24-TS21*,597,,,,,,,FDlamin,-0.2,-3.1,Tsagaan Gol,Tsagaan Oloom
+24-TS21*,597,,,,,,,FDlamin,-0.1,-3.1,Tsagaan Gol,Tsagaan Oloom
+24-TS14*,598,,,,,,,FD lam spar P,-0.3,-5.8,Tsagaan Gol,Tsagaan Oloom
+24-TS14*,598,,,,,,,FD lam spar P,-1.7,-22.9,Tsagaan Gol,Tsagaan Oloom
+24-TS23*,609,,,,,,,FD lam spar P,-0.3,-4.8,Tsagaan Gol,Tsagaan Oloom
+24-TS23*,609,,,,,,,FD lam spar P,0.8,-2.5,Tsagaan Gol,Tsagaan Oloom
+24-TS24,614,,,,,,,D lam spar P,0,-4.4,Tsagaan Gol,Tsagaan Oloom
+24-TS24,614,,,,,,,D lam spar P,-0.1,-4.7,Tsagaan Gol,Tsagaan Oloom
+25-TS26,618,,,,,,,C mud pel,-0.1,-12.2,Tsagaan Gol,Tsagaan Oloom
+25-TS26,618,,,,,,,C mud pel,0.3,-11.7,Tsagaan Gol,Tsagaan Oloom
+25-TS27*,623,,,,,,,C strom ic,-0.5,-15.7,Tsagaan Gol,Tsagaan Oloom
+25-TS27,623,,,,,,,C strom ic,-1.7,-13,Tsagaan Gol,Tsagaan Oloom
+25-TS28*,628,,,,,,,C wkst ic,0.2,-18.8,Tsagaan Gol,Tsagaan Oloom
+25-TS28,628,,,,,,,C wkst ic,0.2,-14.4,Tsagaan Gol,Tsagaan Oloom
+25-TS29,633,,,,,,,C bwkst ic ch,0.5,-11.2,Tsagaan Gol,Tsagaan Oloom
+25-TS29,633,,,,,,,C bwkst ic ch,0.3,-10.8,Tsagaan Gol,Tsagaan Oloom
+25-VK42-3401-1,635,,,,,,,Calcite,-0.2,-27.3,Tsagaan Gol,Tsagaan Oloom
+25-VK43-3402,660,,,,,,,Calcite,0.6,-14.2,Tsagaan Gol,Tsagaan Oloom
+25-VK44-3403,685,,,,,,,Calcite,-1.3,-11.3,Tsagaan Gol,Tsagaan Oloom
+25-VK45-3404,700,,,,,,,Dolomite,-2.1,-9.8,Tsagaan Gol,Tsagaan Oloom
+25-VK46-3405,745,,,,,,,Dolomite,-4.3,-9.8,Tsagaan Gol,Tsagaan Oloom
+26-VK47-3406,758,,,,,,,Dolomite,-3.8,-9.3,Tsagaan Gol,Tsagaan Oloom
+26-VK48-3407,783,,,,,,,Calcite,-5.5,-10.3,Tsagaan Gol,Tsagaan Oloom
+26-VK49-3408,808,,,,,,,Calcite,-5.4,-11,Tsagaan Gol,Tsagaan Oloom
+26-VK50-3409,818,,,,,,,Calcite,-2.1,-11,Tsagaan Gol,Tsagaan Oloom
+27-TS30,832,,,,,,,C wkst pel v,0.9,-13.3,Tsagaan Gol,Tsagaan Oloom
+27-TS30,832,,,,,,,C wkst pel v,0.6,-14.9,Tsagaan Gol,Tsagaan Oloom
+27-TS31,837,,,,,,,C bmud lam v,-0.5,-11.3,Tsagaan Gol,Tsagaan Oloom
+27-TS31,837,,,,,,,C bmud lam v,-0.9,-13,Tsagaan Gol,Tsagaan Oloom
+27-TS32,843,,,,,,,C mud pel v,-1.4,-9,Tsagaan Gol,Tsagaan Oloom
+27-TS32,843,,,,,,,C mud pel v,-1.4,-9.2,Tsagaan Gol,Tsagaan Oloom
+27-TS33,843,,,,,,,C pkst D spar,-1.3,-8.4,Tsagaan Gol,Tsagaan Oloom
+27-TS33,85,,,,,,,C pkst D spar,-1.3,-9.7,Tsagaan Gol,Tsagaan Oloom
+27-TS37b,867,,,,,,,C one pkst,-0.5,-11.9,Tsagaan Gol,Tsagaan Oloom
+27-TS37b*,867,,,,,,,C one pkst,-3.6,-17.3,Tsagaan Gol,Tsagaan Oloom
+27-TS37a,872,,,,,,,C pkst D spar,-2.2,-12.4,Tsagaan Gol,Tsagaan Oloom
+27-TS37a,872,,,,,,,C pkst D spar,-2.4,-12.3,Tsagaan Gol,Tsagaan Oloom
+27-TS36,877,,,,,,,C grst D spar,-2.7,-10,Tsagaan Gol,Tsagaan Oloom
+27-TS36,877,,,,,,,C grst D spar,-2.3,-9.5,Tsagaan Gol,Tsagaan Oloom
+27-TS35,882,,,,,,,C grst D spar,-1.9,-11.5,Tsagaan Gol,Tsagaan Oloom
+27-TS35,883,,,,,,,C grst D spar,-2.1,-10.7,Tsagaan Gol,Tsagaan Oloom
+27-TS34*,897,,,,,,,C one grst,-4.6,-16.1,Tsagaan Gol,Tsagaan Oloom
+27-TS34,897,,,,,,,C one grst,-3.9,-13.6,Tsagaan Gol,Tsagaan Oloom
+27-TS40*,898,,,,,,,C one grst,-6.2,-12.7,Tsagaan Gol,Tsagaan Oloom
+27-TS40,898,,,,,,,C one grst,-5.9,-12.4,Tsagaan Gol,Tsagaan Oloom
+9/B30,791,,,,,,,D cmb spar,2.9,-4,Bayan Gol 3B,Tsagaan Oloom
+10/B31,792,,,,,,,CD mspar,1.8,-9.3,Bayan Gol 3B,Tsagaan Oloom
+11/BAY11-21,797,,,,,,,C pel mud,1.3,-7.9,Bayan Gol 3B,Tsagaan Oloom
+11/B32,816,,,,,,,CD mud spar,-0.2,-13.3,Bayan Gol 3B,Tsagaan Oloom
+11/B33,829,,,,,,,C pel mspar,0.3,-7.8,Bayan Gol 3B,Tsagaan Oloom
+12/B24,834,,,,,,,C mud F spar,-3.3,-12.8,Bayan Gol 3B,Tsagaan Oloom
+15/11-22,928,,,,,,,Cmud,-0.2,-7.8,Bayan Gol 3B,Tsagaan Oloom
+15/11-T,953,,,,,,,Cmud,0.6,-12.3,Bayan Gol 3B,Tsagaan Oloom
+15/B35*,955,,,,,,,C pel mspar,0.4,-16.5,Bayan Gol 3B,Tsagaan Oloom
+15/B36,958,,,,,,,C pel mspar,-0.4,-8.9,Bayan Gol 3B,Tsagaan Oloom
+15/B37,963,,,,,,,C pel pkst,-2.6,-11.4,Bayan Gol 3B,Tsagaan Oloom
+15/B38*,972,,,,,,,C pel pkst,-0.7,-20,Bayan Gol 3B,Tsagaan Oloom
+16/B39,990,,,,,,,C pel mspar,0,-11.7,Bayan Gol 3B,Tsagaan Oloom
+16/B40,1000,,,,,,,C pel mspar,0.5,-14.6,Bayan Gol 3B,Tsagaan Oloom
+0-VK1,10,,,,,,,Dolomite,3.5,-5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK2,40,,,,,,,Dolomite,5.8,-3.7,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK3,50,,,,,,,Dolomite,3.5,-4.2,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK4,70,,,,,,,Dolomite,4.6,-5.7,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK5,85,,,,,,,Dolomite,5.5,-4.9,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK6,100,,,,,,,Dolomite,4.2,-4.6,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK7,120,,,,,,,Dolomite,3.9,-5.2,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK8,140,,,,,,,Dolomite,3.5,-4.4,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK9,150,,,,,,,Dolomite,1,-5.2,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK10,175,,,,,,,Dolomite,2,-4.1,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK11,200,,,,,,,Dolomite,3.5,-4.2,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK12,230,,,,,,,Dolomite,2.6,-3.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK13,260,,,,,,,Dolomite,0,-5.5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK14,290,,,,,,,Dolomite,2,-3.6,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK15,330,,,,,,,Dolomite,2.2,-5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK16,380,,,,,,,Dolomite,0.2,-7.7,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+0-VK17,410,,,,,,,Dolomite,-0.5,-4.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-VK18,420,,,,,,,Dolomite,2.5,-9.4,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN2,429,,,,,,,D strom cmb,3.3,-1.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN3,435,,,,,,,D strom cmb,2.8,-2.3,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN4,439,,,,,,,D strom cmb,3.1,-2.4,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+I-VK20,440,,,,,,,Dolomite,2.6,-1.7,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN5,444,,,,,,,D mud pel,2.7,-2.5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-VK21,450,,,,,,,Dolomite,3,-3.3,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN6,452,,,,,,,D mud vg,2.9,-0.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN7,460,,,,,,,D grst in,3.5,-0.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-VK22,460,,,,,,,Dolomite,3.1,-4.3,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-VK23,470,,,,,,,Dolomite,2.5,-3.5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+1-KTN8,470,,,,,,,D grst in,3.7,0.3,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+4/5-VK24,520,,,,,,,Calcite,-3.8,-11.2,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+4/5-T4,527,,,,,,,C pel mud,-2.8,-10.5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+4/5-VK25,540,,,,,,,Calcite,-0.9,-11.2,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+4/5-T5,550,,,,,,,C pel mud,-1.6,-9.4,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+4/5-T6,560,,,,,,,C pel mud,-2.3,-9.9,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+4/5-T7,570,,,,,,,C pel mud,-1,-9.6,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+6-T8,580,,,,,,,C pel mud,-1.5,-9.6,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+6-T9,605,,,,,,,C pel mud spar,-2.7,-8.4,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+7-KTN16,614,,,,,,,C onc,-2.4,-9,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+7-KTN15,625,,,,,,,C grst,2.3,-7.7,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+7-KTN13,645,,,,,,,C grst,3,-8.4,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+7-KTN12,655,,,,,,,C grst,3.8,-7.7,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+7-KTN11,665,,,,,,,C pel spar,4.3,-6.9,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+7-KTN10,675,,,,,,,C pel spar D,2.9,-9.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+8/9-T13,680,,,,,,,D spar,-2.2,-12.1,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+8/9-T14,687,,,,,,,C pel mud spar,-2.3,-8.5,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+8/9-T15,693,,,,,,,C pel mud,-2.2,-7.8,Khevte-Tsakir-Nurruu,Tsagaan Oloom
+8/9-T16,703,,,,,,,C pel mud,-2.2,-7,Khevte-Tsakir-Nurruu,Tsagaan Oloom

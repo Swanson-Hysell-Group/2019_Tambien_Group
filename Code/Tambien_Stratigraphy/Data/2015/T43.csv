@@ -1,0 +1,11 @@
+Name,Dates,Start_Lat,Start_Lon,End_Lat,End_Lon,Datum,,,,,,,,,,
+T43,6/28/15,13.139813,39.176158,13.139468,39.176982,WGS84,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+THICKNESS,LITHOLOGY,GRAIN_SIZE,FEATURES,,ASH,ASH_HEIGHT,,CARB_SAMPLE,CARB_REMARKS,CARB_HEIGHT,CARB_UNIT,CARB_d13C,CARB_d13C_std,CARB_d18O,CARB_d18O_std,CARB_mts_mtx
+79,si,sts,,,SAM-ET-03,1.5,,79.5,,79.5,3,-1.312349557,0.029005767,-12.07883028,0.180484331,mtx
+0.3,ls,gr-sts,,,SAM-ET-04,13.2,,,,,,,,,,
+0.2,ls,gr,,,,,,,,,,,,,,
+0.4,ls,icb,,,,,,,,,,,,,,
+6.9,si,sts,,,,,,,,,,,,,,
+1,si,di2,,,,,,,,,,,,,,
