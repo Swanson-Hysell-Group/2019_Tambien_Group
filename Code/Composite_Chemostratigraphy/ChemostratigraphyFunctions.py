@@ -8,7 +8,6 @@ import statistics
 import jinja2
 import json
 import pandas as pd
-#import mpld3
 
 
 
@@ -1156,47 +1155,6 @@ def tonian_comp_plot(kind, sections, colors, labels, xlim=None):
         ax[1].set_xlabel('age (Ma)')
 
     plt.show()
-
-
-
-
-
-def section_sed_rates(dataframe, ylims=None):
-    """Calculate sedimentation rates for a single section.
-
-    inputs:
-    - dataframe = pandas dataframe that contains the section data. Must have 'age' column.
-    - ylims = y limits, as [ymin, ymax]
-    """
-    # initialize list which will store the values
-    sed_rate = []
-    mid_height = []
-    mid_age = []
-    # deep copy the dataframe
-    dataframe = dataframe.copy()
-    # remove duplicate data (molar tooth samples, duplicate samples)
-    to_drop = []
-    for j in range(len(dataframe.index)-1):
-        if dataframe['strat_m'][j+1] == dataframe['strat_m'][j]:
-            to_drop.append(j)
-    dataframe = dataframe.drop(to_drop)
-    dataframe = dataframe.reset_index(drop=True)
-    # fill lists
-    for j in range(len(dataframe.index)-1):
-        sed_rate.append((dataframe['strat_m'][j+1] - dataframe['strat_m'][j]) /\
-                        (dataframe['age'][j] - dataframe['age'][j+1]))
-        sed_rate[j] = sed_rate[j] * 1e-3 #convert units to mm/yr
-        mid_height.append((dataframe['strat_m'][j+1] + dataframe['strat_m'][j]) / 2)
-        mid_age.append((dataframe['age'][j] + dataframe['age'][j+1]) / 2)
-
-    # plot
-    fig, ax = plt.subplots(figsize=(9,3))
-    ax.plot(mid_height, sed_rate)
-    ax.set_xlabel('stratigraphic height [m]')
-    ax.set_ylabel('sedimentation rate [mm/yr]')
-    if ylims != None:
-        ax.set_ylim(ylims)
-    plt.show(fig)
 
 
 

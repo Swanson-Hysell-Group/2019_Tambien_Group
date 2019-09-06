@@ -547,183 +547,9 @@ def get_areas_in_bands(reconstructed_feature_geometries, lat_mins, lat_maxs):
 
 
 
-def initialize_LIP_dict(LIP_feature_collection):
-    """
-    Initialize the dictionary which contains the LIP fraction remaining for all LIPs.
-
-    inputs:
-    - LIP_feature_collection = feature collection of LIPs
-
-    outputs:
-    - LIP_fracs = dictionary with keys = LIP names, values = LIP fraction remaining
-    """
-    # get the unique ID associated with each LIP geometry
-    LIP_Ids = []
-    for feature_collection in LIP_feature_collection:
-        for feature in feature_collection:
-            LIP_Id = feature.get_feature_id().get_string()
-            LIP_Ids.append(LIP_Id)
-
-    # create a dictionary: key = LIP Id, value = LIP fraction remaining
-    ones = [1]*len(LIP_Ids)
-    LIP_fracs = dict(zip(LIP_Ids, ones))
-
-    return LIP_fracs
-
-
-
-
-
-def weather_LIPs(reconstructed_feature_geometries, LIP_fracs, Ts, Rs, t_step, thickness, density):
-    """
-    A model for weathering LIPs.
-
-    inputs:
-    - reconstructed_feature_geometries = list of reconstructed features
-    - LIP_fracs = dictionary with keys = LIP Ids, values = LIP fraction remaining
-    - Ts = dataframe of zonal temperature
-    - Rs = dataframe of zonal runoff
-    - t_step = time since last weathering calculation (million years)
-    - thickness = LIP thickness (km)
-    - density = LIP density (kg/km^3)
-
-    outputs:
-    - modifies LIP_fracs in place
-    """
-    # only calculate if there are geometries
-    if len(reconstructed_feature_geometries) > 0:
-        # the time
-        t = int(reconstructed_feature_geometries[0].get_reconstruction_time())
-
-        # only calculate if the t is in our climate model
-        T_string = 'T_C_'+str(t)
-        if T_string in Ts.columns:
-
-            # iterate over each polygon
-            for i in range(len(reconstructed_feature_geometries)):
-
-                # get the Id
-                current_Id = reconstructed_feature_geometries[i].get_feature().get_feature_id().get_string()
-
-                # only calculate if there is some LIP left
-                if LIP_fracs[current_Id] > 0:
-
-                    # get the polygon, ID, area, mass, and centre latitude
-                    current_polygon = reconstructed_feature_geometries[i].get_reconstructed_geometry()
-
-                    og_mass = current_polygon.get_area() * (6371.009**2) * thickness * density
-
-                    current_area = (current_polygon.get_area() * 6371.009**2) * LIP_fracs[current_Id]
-                    current_mass = current_area * thickness * density
-
-                    centre_point = current_polygon.get_interior_centroid()
-                    centre_lat = centre_point.to_lat_lon_array()[0][0]
-
-                    # get the T and R at this time and latitude
-                    for j in range(len(Ts.index)):
-                        if centre_lat<Ts['lat_maxs'][j] and centre_lat>Ts['lat_mins'][j]:
-                            T = Ts['T_C_'+str(t)][j]
-                    for j in range(len(Rs.index)):
-                        if centre_lat<Rs['lat_maxs'][j] and centre_lat>Rs['lat_mins'][j]:
-                            R = Rs['R_m/yr_'+str(t)][j]
-
-                    # get the weathering rate (t/km^2/yr)
-                    fw = (R * 18.41 * np.exp(0.0533 * T)) / 0.649
-
-                    # weather (kg)
-                    weather_mass = fw * current_area * abs(t_step)*1e6 * 1000
-
-                    # update the mass
-                    current_mass = current_mass - weather_mass
-
-                    # update the remaining fraction in place
-                    if current_mass > 0:
-                        LIP_fracs[current_Id] = current_mass / og_mass
-                    else:
-                        LIP_fracs[current_Id] = 0
-
-        # if the t is not in our climate model, fill the dictionary with nans
-        else:
-            # if the dictionary is already filled with nans, we can move on
-            if math.isnan(LIP_fracs[reconstructed_feature_geometries[0].get_feature().get_feature_id().get_string()]):
-                pass
-            else:
-                for key, value in LIP_fracs.iteritems():
-                    LIP_fracs[key] = float('NaN')
-
-
-
-
-
-def get_LIP_areas_in_bands(reconstructed_feature_geometries, lat_mins, lat_maxs, LIP_fracs):
-    """
-    Get the area of all LIP features in each latitude band, accounting for erosion.
-
-    inputs:
-    - reconstructed_feature_geometries = list of reconstructed features
-    - lat_mins = list/np array of latitude minimums
-    - lat_maxs = list/np array of latitude maximums
-    - LIP_fracs = dictionary with keys = LIP Ids, values = LIP fraction remaining
-
-    outputs:
-    - areas = list of total area in each latitude band (accounting for weathering)
-    - area_polygons = all polygons for which areas were calculated (not accounting for weathering)
-    """
-    # only calculate if there are geometries
-    if len(reconstructed_feature_geometries) > 0:
-        # if our LIP_fracs has nan's
-        if math.isnan(LIP_fracs[reconstructed_feature_geometries[0].get_feature().get_feature_id().get_string()]):
-            areas = [np.nan]*len(lat_mins)
-            area_polygons = None
-
-        # if our LIP_fracs has values
-        else:
-            # storage vectors
-            areas = []
-            area_polygons = []
-
-            # iterate over each latitude band
-            for i in range(len(lat_mins)):
-
-                accumulated_area = 0
-
-                # iterate over each polygon
-                for j in range(len(reconstructed_feature_geometries)):
-
-                    current_polygon = reconstructed_feature_geometries[j].get_reconstructed_geometry()
-                    current_Id = reconstructed_feature_geometries[j].get_feature().get_feature_id().get_string()
-
-                    # check if the polygon is in the band
-                    in_band = check_polygon_in_band(current_polygon, lat_mins[i], lat_maxs[i])
-
-                    if in_band:
-                        # do the calculation
-                        area, band_polygon = get_area_in_band(current_polygon, lat_mins[i], lat_maxs[i])
-
-                        # scale the area appropriately
-                        area = area * LIP_fracs[current_Id]
-
-                        # store results
-                        accumulated_area = accumulated_area + area
-                        area_polygons.append(band_polygon)
-
-                # store total area for the band
-                areas.append(accumulated_area)
-
-    else:
-        areas = [0]*len(lat_mins)
-        area_polygons = []
-
-    return areas, area_polygons
-
-
-
-
-
-def get_LIP_areas_in_bands2(reconstructed_feature_geometries, lat_mins, lat_maxs, thresh=None, halflife=None, cover_thresh=None, covered_LIP_names=None):
+def get_LIP_areas_in_bands(reconstructed_feature_geometries, lat_mins, lat_maxs, halflife, cover_thresh, covered_LIP_names):
     """
     Get the area of all features in each latitude band, with optional calculations for:
-    - features instantly disappearing after `thresh` years
     - features decaying exponentially
     - covered features instantly disappearing after `cover_thresh` years, and other features
       decaying exponentially
@@ -736,12 +562,12 @@ def get_LIP_areas_in_bands2(reconstructed_feature_geometries, lat_mins, lat_maxs
         array-like of latitude minimums
     lat_maxs : array_like
         array_like of latitude maximums
-    thresh : array-like (optional)
-        after this many Myrs, the feature will instantly disappear
-    halflife : array-like (optional)
+    halflife : array-like
         half life of exponential decay
     cover_thresh : array-like
         after this many Myrs, the covered feature will instantly disappear
+    covered_LIP_names : list
+        containing names of LIPs that should be treated as covered
 
     Returns
     -------
@@ -749,11 +575,6 @@ def get_LIP_areas_in_bands2(reconstructed_feature_geometries, lat_mins, lat_maxs
         list of total area in each latitude band
     area_polygons : list
         list of all polygons for which areas were calculated
-
-    Optional Returns
-    ----------------
-    areas_thresh : list of arrays
-        list of total area in each latitude band, accounting for thresholding method
     areas_decay : list of arrays
         list of total area in each latitude band, accounting for exponential decay method
     areas_cover : list of arrays
@@ -762,38 +583,28 @@ def get_LIP_areas_in_bands2(reconstructed_feature_geometries, lat_mins, lat_maxs
     # storage vectors
     areas = np.array([])
     area_polygons = []
+    areas_decay_temp = []
+    areas_cover_temp = []
 
-    # optional storage vectors
-    if thresh != None:
-        areas_thresh_temp = []
-    if halflife != None:
-        areas_decay_temp = []
-        # convert halflife to decay constant
-        lamb = np.log(2)/halflife
-    if cover_thresh != None:
-        areas_cover_temp = []
+    # convert halflife to decay constant
+    lamb = np.log(2)/halflife
 
     # iterate over each latitude band
     for i in range(len(lat_mins)):
 
         accumulated_area = 0
 
-        if thresh != None:
-            accumulated_area_thresh = np.zeros(len(thresh))
-        if halflife != None:
-            accumulated_area_decay = np.zeros(len(halflife))
-        if cover_thresh != None:
-            accumulated_area_cover = np.zeros(len(cover_thresh))
+        accumulated_area_decay = np.zeros(len(halflife))
+        accumulated_area_cover = np.zeros(len(cover_thresh))
 
         # iterate over each polygon
         for j in range(len(reconstructed_feature_geometries)):
 
-            if thresh != None or halflife != None or cover_thresh != None:
-                # get the begin date, reconstruction date, and feature age
-                begin_date, end_date = reconstructed_feature_geometries[j].get_feature().get_valid_time()
-                now_date = reconstructed_feature_geometries[j].get_reconstruction_time()
-                feature_age = begin_date - now_date
-                feature_name = reconstructed_feature_geometries[j].get_feature().get_name()
+            # get the begin date, reconstruction date, and feature age
+            begin_date, end_date = reconstructed_feature_geometries[j].get_feature().get_valid_time()
+            now_date = reconstructed_feature_geometries[j].get_reconstruction_time()
+            feature_age = begin_date - now_date
+            feature_name = reconstructed_feature_geometries[j].get_feature().get_name()
 
             # get the actual polygon
             current_polygon = reconstructed_feature_geometries[j].get_reconstructed_geometry()
@@ -809,91 +620,51 @@ def get_LIP_areas_in_bands2(reconstructed_feature_geometries, lat_mins, lat_maxs
                 accumulated_area = accumulated_area + area
                 area_polygons.append(band_polygon)
 
-                if thresh != None:
-                    for k in range(len(thresh)):
+                for k in range(len(halflife)):
+                    # scale the area based on the exponential decay equation
+                    decay_area = area * np.exp(-lamb[k]*feature_age)
+
+                    # store results
+                    accumulated_area_decay[k] = accumulated_area_decay[k] + decay_area
+
+                if feature_name in covered_LIP_names:
+                    for k in range(len(cover_thresh)):
                         # check if the polygon is past its due by date
-                        if begin_date < (now_date+thresh[k]):
+                        if begin_date < (now_date+cover_thresh[k]):
                             still_alive = True
                         else:
                             still_alive = False
 
                         if still_alive:
-                            accumulated_area_thresh[k] = accumulated_area_thresh[k] + area
-
-                if halflife != None:
-                    for k in range(len(halflife)):
+                            accumulated_area_cover[k] = accumulated_area_cover[k] + area
+                else:
+                    for k in range(len(cover_thresh)):
                         # scale the area based on the exponential decay equation
                         decay_area = area * np.exp(-lamb[k]*feature_age)
 
                         # store results
-                        accumulated_area_decay[k] = accumulated_area_decay[k] + decay_area
-
-                if cover_thresh != None:
-                    if feature_name in covered_LIP_names:
-                        for k in range(len(cover_thresh)):
-                            # check if the polygon is past its due by date
-                            if begin_date < (now_date+cover_thresh[k]):
-                                still_alive = True
-                            else:
-                                still_alive = False
-
-                            if still_alive:
-                                accumulated_area_cover[k] = accumulated_area_cover[k] + area
-                    else:
-                        for k in range(len(cover_thresh)):
-                            # scale the area based on the exponential decay equation
-                            decay_area = area * np.exp(-lamb[k]*feature_age)
-
-                            # store results
-                            accumulated_area_cover[k] = accumulated_area_cover[k] + decay_area
+                        accumulated_area_cover[k] = accumulated_area_cover[k] + decay_area
 
         # store total area for the band
         areas = np.append(areas, accumulated_area)
 
-        if thresh != None:
-            areas_thresh_temp.append(accumulated_area_thresh)
-        if halflife != None:
-            areas_decay_temp.append(accumulated_area_decay)
-        if cover_thresh != None:
-            areas_cover_temp.append(accumulated_area_cover)
+        areas_decay_temp.append(accumulated_area_decay)
+        areas_cover_temp.append(accumulated_area_cover)
 
     # basically, flip our outputs so that each array in our list is for a given input thresh/halflife
-    if thresh != None:
-        areas_thresh = []
-        for i in range(len(thresh)):
-            this_array = np.array([])
-            for j in range(len(areas_thresh_temp)):
-                this_array = np.append(this_array, areas_thresh_temp[j][i])
-            areas_thresh.append(this_array)
-    if halflife != None:
-        areas_decay = []
-        for i in range(len(halflife)):
-            this_array = np.array([])
-            for j in range(len(areas_decay_temp)):
-                this_array = np.append(this_array, areas_decay_temp[j][i])
-            areas_decay.append(this_array)
-    if cover_thresh != None:
-        areas_cover = []
-        for i in range(len(cover_thresh)):
-            this_array = np.array([])
-            for j in range(len(areas_cover_temp)):
-                this_array = np.append(this_array, areas_cover_temp[j][i])
-            areas_cover.append(this_array)
+    areas_decay = []
+    for i in range(len(halflife)):
+        this_array = np.array([])
+        for j in range(len(areas_decay_temp)):
+            this_array = np.append(this_array, areas_decay_temp[j][i])
+        areas_decay.append(this_array)
+
+    areas_cover = []
+    for i in range(len(cover_thresh)):
+        this_array = np.array([])
+        for j in range(len(areas_cover_temp)):
+            this_array = np.append(this_array, areas_cover_temp[j][i])
+        areas_cover.append(this_array)
 
     # returns
-    if thresh == None and halflife == None and cover_thresh == None:
-        return areas, area_polygons
-    elif thresh != None and halflife == None and cover_thresh == None:
-        return areas, area_polygons, areas_thresh
-    elif thresh != None and halflife != None and cover_thresh == None:
-        return areas, area_polygons, areas_thresh, areas_decay
-    elif thresh != None and halflife == None and cover_thresh != None:
-        return areas, area_polygons, areas_thresh, areas_cover
-    elif thresh != None and halflife != None and cover_thresh != None:
-        return areas, area_polygons, areas_thresh, areas_decay, areas_cover
-    elif thresh == None and halflife != None and cover_thresh == None:
-        return areas, area_polygons, areas_decay
-    elif thresh == None and halflife != None and cover_thresh != None:
-        return areas, area_polygons, areas_decay, areas_cover
-    elif thresh == None and halflife == None and cover_thresh != None:
-        return areas, area_polygons, areas_cover
+    return areas, area_polygons, areas_decay, areas_cover
