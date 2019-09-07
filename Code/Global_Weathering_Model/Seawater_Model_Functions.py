@@ -1,4 +1,4 @@
-# This file contains the functions used in the Seawater Model notebooks within this repository.
+# This file contains the functions used in Seawater_Model.ipynb within this repository.
 
 import numpy as np
 import pandas as pd
@@ -10,12 +10,15 @@ import matplotlib.patches as patches
 
 
 def dict_to_sorted_df(dictionary):
-    """Convert a dictionary to a sorted pandas df.
+    """
+    Convert a dictionary to a sorted pandas df.
 
-    inputs:
+    Parameters
+    ----------
     - dictionary = dictionary
 
-    outputs:
+    Returns
+    -------
     - df = sorted pandas dataframe
     """
 
@@ -30,9 +33,11 @@ def dict_to_sorted_df(dictionary):
 
 
 def plot_model_and_data(data, t, Sr87, Sr86, xy, t_start, axvlines, min8786, max8786, maxt, mint, save=None):
-    """Plot model output and measured 87Sr/86Sr.
+    """
+    Plot model output and measured 87Sr/86Sr.
 
-    inputs:
+    Parameters
+    ----------
     - data = pandas dataframe containing measured 87Sr/86Sr
     - t = numpy array containing the time
     - Sr87 = numpy array containing Sr87 abundance in mols
@@ -97,9 +102,11 @@ def plot_model_and_data(data, t, Sr87, Sr86, xy, t_start, axvlines, min8786, max
 
 
 def plot_model_and_data_2(data, t, Sr87, Sr86, min8786, max8786, maxt, mint):
-    """Plot model output and measured 87Sr/86Sr.
+    """
+    Plot model output and measured 87Sr/86Sr.
 
-    inputs:
+    Parameters
+    ----------
     - data = pandas dataframe containing measured 87Sr/86Sr
     - t = numpy array containing the time
     - Sr87 = numpy array containing Sr87 abundance in mols
@@ -140,9 +147,11 @@ def plot_model_and_data_2(data, t, Sr87, Sr86, min8786, max8786, maxt, mint):
 
 
 def plot_seawater_model(t, Mg, Ca, Sr88, Sr87, Sr86, min8786, max8786, minMgCa, maxMgCa, mint, maxt, save=None):
-    """Plot the results of the seawater model.
+    """
+    Plot the results of the seawater model.
 
-    inputs:
+    Parameters
+    ----------
     - t = numpy array containing the time
     - Mg = numpy array containing Mg abundance in mols
     - Ca = numpy array containing Ca abundance in mols
@@ -157,7 +166,8 @@ def plot_seawater_model(t, Mg, Ca, Sr88, Sr87, Sr86, min8786, max8786, minMgCa, 
     - maxt = maximum time to plot
     - save = optional save string
 
-    ouputs:
+    Returns
+    -------
     - fig = figure handle of output plot
     - ax = axes handles of output plot
     """
@@ -203,9 +213,11 @@ def plot_seawater_model_2(t, Mg, Ca, Sr88, Sr87, Sr86,\
                           bulk_W_carbs, bulk_W_ccs, bulk_W_LIPs,\
                           carb_DR_means, cc_DR_means, LIP_DR_means,\
                           min8786, max8786, minMgCa, maxMgCa, mint, maxt):
-    """Plot the results of the seawater model.
+    """
+    Plot the results of the seawater model.
 
-    inputs:
+    Parameters
+    ----------
     - t = numpy array containing the time
     - Mg = numpy array containing Mg abundance in mols
     - Ca = numpy array containing Ca abundance in mols
@@ -225,7 +237,8 @@ def plot_seawater_model_2(t, Mg, Ca, Sr88, Sr87, Sr86,\
     - mint = oldest age to plot (in Ma)
     - maxt = youngest age to plot (in Ma)
 
-    ouputs:
+    Returns
+    -------
     - fig = figure handle of output plot
     - ax = axes handles of output plot
     """

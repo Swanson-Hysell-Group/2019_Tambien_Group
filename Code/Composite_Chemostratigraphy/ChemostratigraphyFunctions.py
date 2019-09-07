@@ -1,4 +1,4 @@
-# This file contains the functions used in the Chemostratigraphy notebooks within this repository.
+# This file contains the functions used in Tonian_Cryogenian_Composite.ipynb.
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,13 +13,18 @@ import pandas as pd
 
 
 
-def age_model(section,constraints,indices):
-    """Generate an age model for any given section.
+def age_model(section, constraints, indices):
+    """
+    Generate an age model for any given section.
 
-    inputs:
-    - section = pandas dataframe for a section
-    - constraints = an ordered list of age constraints
-    - indices = an ordered list of indices which correspond to the age constraints
+    Parameters
+    ----------
+    section : dataframe
+        for a section
+    constraints : list
+        an ordered list of age constraints
+    indices : list
+        an ordered list of indices which correspond to the age constraints
     """
 
     # the number of input age constraints
@@ -53,10 +58,13 @@ def age_model(section,constraints,indices):
 
 
 def c_sr_comp_plot(dataframes, colors, Sr_threshold, MnSr_threshold, save='No', ymin=-500, ymax=5000):
-    """Plot d13C and 87Sr/86Sr for an arbitrary number of sections.
+    """
+    Plot d13C and 87Sr/86Sr for an arbitrary number of sections.
 
-    inputs:
+    Parameters
+    ----------
     note that all input lists must be ordered identically
+
     - dataframes = list of pandas dataframes
     - colors = list of strings of colours
     - Sr_threshold = list of [Sr] thresholds (make 0 if you do not wish to apply)
@@ -151,10 +159,13 @@ def c_sr_comp_plot(dataframes, colors, Sr_threshold, MnSr_threshold, save='No', 
 
 
 def c_sr_o_ca_comp_plot(dataframes, colors, Sr_threshold, MnSr_threshold, ymin=-500, ymax=5000):
-    """Plot d13C, 87Sr/86Sr, d18O, d44/40Ca for an arbitrary number of sections.
+    """
+    Plot d13C, 87Sr/86Sr, d18O, d44/40Ca for an arbitrary number of sections.
 
-    inputs:
+    Parameters
+    ----------
     note that all input lists must be ordered identically
+
     - dataframes = list of pandas dataframes
     - colors = list of strings of colours
     - Sr_threshold = list of [Sr] thresholds (make 0 if you do not wish to apply)
@@ -286,9 +297,11 @@ def c_sr_o_ca_comp_plot(dataframes, colors, Sr_threshold, MnSr_threshold, ymin=-
 
 
 def c_sr_plot(section_data, Sr_threshold=0, MnSr_threshold=float('inf'), save='No', xlim=None):
-    """Plot d13C and 87Sr/86Sr for a single section.
+    """
+    Plot d13C and 87Sr/86Sr for a single section.
 
-    inputs:
+    Parameters
+    ----------
     - section_data = pandas dataframe
     - Sr_threshold = [Sr] threshold (0 by default)
     - MnSr_threshold = [Mn]/[Sr] threshold (inf by default)
@@ -409,9 +422,11 @@ def c_sr_plot(section_data, Sr_threshold=0, MnSr_threshold=float('inf'), save='N
 
 
 def clast_plot(dataframe, bins, slice_min=0, slice_max=0, save='No'):
-    """Create a histogram for diamictite clast data.
+    """
+    Create a histogram for diamictite clast data.
 
-    inputs:
+    Parameters
+    ----------
     - dataframe = input dataframe
     - bins = number of bins to plot
     - slice_min = index to start data slice, inclusive (optional)
@@ -457,9 +472,11 @@ def clast_plot(dataframe, bins, slice_min=0, slice_max=0, save='No'):
 
 
 def create_tambien_csv(sections, Sr_threshold, MnSr_threshold, save, out, plot, rename):
-    """Take in selected sections, output collated data into a single sorted .csv, and plot the result.
+    """
+    Take in selected sections, output collated data into a single sorted .csv, and plot the result.
 
-    inputs:
+    Parameters
+    ----------
     - sections = list of ordered pandas dataframes
     - Sr_threshold = list of ordered [Sr] thresholds - used for plotting only
     - MnSr_threshold = list of ordered [Mn]/[Sr] thresholds - used for plotting only
@@ -523,9 +540,11 @@ def create_tambien_csv(sections, Sr_threshold, MnSr_threshold, save, out, plot, 
 
 
 def create_tonian_csv(sections, labels, save, out):
-    """Take in selected sections, output collated data into a single sorted .csv. Only critical columns are saved.
+    """
+    Take in selected sections, output collated data into a single sorted .csv. Only critical columns are saved.
 
-    inputs:
+    Parameters
+    ----------
     - sections = ordered list of pandas dataframes
     - labels = ordered list of section labels
     - save = string of save path and file name
@@ -566,9 +585,11 @@ def create_tonian_csv(sections, labels, save, out):
 
 
 def o_c_comp_xplot(dataframes, colors, linregress=True):
-    """Plot d18O vs d13C and perform a linear regression for an arbitrary number of sections.
+    """
+    Plot d18O vs d13C and perform a linear regression for an arbitrary number of sections.
 
-    inputs:
+    Parameters
+    ----------
     note that all input lists must be ordered identically
     - dataframes = list of pandas dataframes
     - colors = list of strings of colours
@@ -623,10 +644,13 @@ def o_c_comp_xplot(dataframes, colors, linregress=True):
 
 
 def sr_comp_xplot(dataframes, colors, Sr_threshold, MnSr_threshold):
-    """Plot [Sr] vs 87Sr/86Sr for an arbitrary number of sections.
+    """
+    Plot [Sr] vs 87Sr/86Sr for an arbitrary number of sections.
 
-    inputs:
+    Parameters
+    ----------
     note that all input lists must be ordered identically
+
     - dataframes = list of pandas dataframes
     - colors = list of strings of colours
     - Sr_threshold = list of [Sr] thresholds (make 0 if you do not wish to apply)
@@ -675,10 +699,13 @@ def sr_comp_xplot(dataframes, colors, Sr_threshold, MnSr_threshold):
 
 
 def sr_mn_comp_xplot(dataframes, colors, Sr_threshold, MnSr_threshold):
-    """Plot [Mn]/[Sr] vs 87Sr/86Sr for an arbitrary number of sections.
+    """
+    Plot [Mn]/[Sr] vs 87Sr/86Sr for an arbitrary number of sections.
 
-    inputs:
+    Parameters
+    ----------
     note that all input lists must be ordered identically
+
     - dataframes = list of pandas dataframes
     - colors = list of strings of colours
     - Sr_threshold = list of [Sr] thresholds (make 0 if you do not wish to apply)
@@ -727,9 +754,11 @@ def sr_mn_comp_xplot(dataframes, colors, Sr_threshold, MnSr_threshold):
 
 
 def sr_variance(dataframes, interval, ymin, ymax):
-    """For a given interval of [Sr], determine the variance in 87Sr/86Sr.
+    """
+    For a given interval of [Sr], determine the variance in 87Sr/86Sr.
 
-    inputs:
+    Parameters
+    ----------
     - dataframes = pandas dataframes to be included
     - interval = interval over which variance will be calculated
     - ymin = minimum ylim
@@ -792,9 +821,11 @@ def sr_variance(dataframes, interval, ymin, ymax):
 
 
 def sr_xplot(section_data, Sr_threshold=0, MnSr_threshold=float('inf')):
-    """Plot [Sr] vs 87Sr/86Sr for a single section.
+    """
+    Plot [Sr] vs 87Sr/86Sr for a single section.
 
-    inputs:
+    Parameters
+    ----------
     - section_data = pandas dataframe
     - Sr_threshold = [Sr] threshold (0 by default)
     - MnSr_threshold = [Mn]/[Sr] threshold (inf by default)
@@ -835,131 +866,12 @@ def sr_xplot(section_data, Sr_threshold=0, MnSr_threshold=float('inf')):
 
 
 
-# def tambien_sed_rates(dataframe, kind, ymin=0, ymax=0.1):
-#     """Calculate sedimentation rates for each section in the input dataframe, and output as interactive html.
-#
-#     inputs:
-#     - dataframe = pandas dataframe that contains the section data. Must have 'age' column
-#     - kind = 'height' or 'age'
-#     - ymin = minimum sedimentation rate (mm/yr) to plot (default = 0)
-#     - ymax = maximum sedimentation rate(mm/yr) to plot (default = 0.1)
-#
-#     outputs:
-#     - fig = mpld3 generated html figure handle for plotting within Jupyter notebook
-#           = e.g. mpld3.display(fig)
-#     """
-#
-#     # create mpld3 plugin to highlight lines - used only for interactive plotting
-#     # adapted from: github.com/jakevdp/mpld3/issues/203
-#     class HighlightLines(mpld3.plugins.PluginBase):
-#         """A plugin to highlight lines on hover"""
-#
-#         JAVASCRIPT = """
-#         mpld3.register_plugin("linehighlight", LineHighlightPlugin);
-#         LineHighlightPlugin.prototype = Object.create(mpld3.Plugin.prototype);
-#         LineHighlightPlugin.prototype.constructor = LineHighlightPlugin;
-#         LineHighlightPlugin.prototype.requiredProps = ["line_ids"];
-#         LineHighlightPlugin.prototype.defaultProps = {alpha_bg:0.3, alpha_fg:1.0}
-#         function LineHighlightPlugin(fig, props){
-#             mpld3.Plugin.call(this, fig, props);
-#         };
-#
-#         LineHighlightPlugin.prototype.draw = function(){
-#           for(var i=0; i<this.props.line_ids.length; i++){
-#              var obj = mpld3.get_element(this.props.line_ids[i], this.fig),
-#                  alpha_fg = this.props.alpha_fg;
-#                  alpha_bg = this.props.alpha_bg;
-#              obj.elements()
-#                  .on("mouseover.highlight", function(d, i){
-#                                 d3.select(this).transition().duration(50)
-#                                   .style("stroke-opacity", alpha_fg); })
-#                  .on("mouseout.highlight", function(d, i){
-#                                 d3.select(this).transition().duration(200)
-#                                   .style("stroke-opacity", alpha_bg); });
-#           }
-#         };
-#         """
-#
-#         def __init__(self, line):
-#             self.line = line
-#             self.dict_ = {"type": "linehighlight",
-#                           "line_ids": [mpld3.utils.get_id(line)],
-#                           "alpha_bg": line.get_alpha(),
-#                           "alpha_fg": 1.0}
-#
-#     # get the names of sections in the dataframe
-#     sections = []
-#     for i in range(len(dataframe.index)):
-#         if dataframe['section'][i] not in sections:
-#             sections.append(dataframe['section'][i])
-#     N = len(sections)
-#
-#     # initialize list which will store lists for each section
-#     sed_rates = []
-#     mid_heights = []
-#     mid_cum_heights = []
-#     mid_ages = []
-#     for i in range(N):
-#         # initialize list which will store the values for each section
-#         sed_rate = []
-#         mid_height = []
-#         mid_cum_height = []
-#         mid_age = []
-#         # make a temporary dataframe for the section in this iteration
-#         section_data = dataframe[dataframe['section']==sections[i]]
-#         section_data = section_data.reset_index(drop=True)
-#         # remove duplicate data (molar tooth samples, duplicate samples)
-#         to_drop = []
-#         for j in range(len(section_data.index)-1):
-#             if section_data['strat_height'][j+1] == section_data['strat_height'][j]:
-#                 to_drop.append(j)
-#         section_data = section_data.drop(to_drop)
-#         section_data = section_data.reset_index(drop=True)
-#         # fill lists
-#         for j in range(len(section_data.index)-1):
-#             sed_rate.append((section_data['strat_height'][j+1] - section_data['strat_height'][j]) /\
-#                             (section_data['age'][j] - section_data['age'][j+1]))
-#             sed_rate[j] = sed_rate[j] * 1e-3 #convert units to mm/yr
-#             mid_height.append((section_data['strat_height'][j+1] + section_data['strat_height'][j]) / 2)
-#             mid_cum_height.append((section_data['strat_m'][j+1] + section_data['strat_m'][j]) / 2)
-#             mid_age.append((section_data['age'][j] + section_data['age'][j+1]) / 2)
-#         # fill lists that store the lists
-#         sed_rates.append(sed_rate)
-#         mid_heights.append(mid_height)
-#         mid_cum_heights.append(mid_cum_height)
-#         mid_ages.append(mid_age)
-#
-#     # plot the data using mpld3
-#     fig, ax = plt.subplots(figsize=(12,5))
-#     if kind == 'height':
-#         for i in range(N):
-#             l, = ax.plot(mid_cum_heights[i],sed_rates[i],color='blueviolet',linewidth=4,alpha=0.1)
-#             tooltip = mpld3.plugins.LineLabelTooltip(l, sections[i])
-#             mpld3.plugins.connect(fig, HighlightLines(l))
-#             mpld3.plugins.connect(fig, tooltip)
-#         ax.set_ylabel('sedimentation rate [mm/yr]')
-#         ax.set_xlabel('cumulative stratigraphic height [m]')
-#         ax.set_ylim(ymin, ymax)
-#     elif kind == 'age':
-#         for i in range(N):
-#             l, = ax.plot(mid_ages[i],sed_rates[i],color='blueviolet',linewidth=4,alpha=0.1)
-#             tooltip = mpld3.plugins.LineLabelTooltip(l, sections[i])
-#             mpld3.plugins.connect(fig, HighlightLines(l))
-#             mpld3.plugins.connect(fig, tooltip)
-#         ax.set_ylabel('sedimentation rate [mm/yr]')
-#         ax.set_xlabel('age [Ma]')
-#         ax.set_ylim(ymin, ymax)
-#
-#     return fig
-
-
-
-
-
 def threshold_visualize(dataframes, Sr_threshold, MnSr_threshold, ymin, ymax):
-    """Plot [Sr] vs 87Sr/86Sr and [Mn]/[Sr] vs 87Sr/86Sr, with the thresholds marked.
+    """
+    Plot [Sr] vs 87Sr/86Sr and [Mn]/[Sr] vs 87Sr/86Sr, with the thresholds marked.
 
-    inputs:
+    Parameters
+    ----------
     - dataframes = pandas dataframes to be included
     - Sr_threshold = threshold [Sr] to be visualized
     - MnSr_threshold = threshold [Mn]/[Sr] to be visualized
@@ -1107,9 +1019,11 @@ def threshold_visualize(dataframes, Sr_threshold, MnSr_threshold, ymin, ymax):
 
 
 def tonian_comp_plot(kind, sections, colors, labels, xlim=None):
-    """Plot d13C and 87Sr/86Sr for datasets in the Tonian Composite, for either height or age.
+    """
+    Plot d13C and 87Sr/86Sr for datasets in the Tonian Composite, for either height or age.
 
-    inputs:
+    Parameters
+    ----------
     - kind = 'height' or 'age'
     - sections = ordered list of pandas dataframes
     - colors = ordered list of colors
@@ -1160,122 +1074,12 @@ def tonian_comp_plot(kind, sections, colors, labels, xlim=None):
 
 
 
-# def tonian_sed_rates(dataframes, labels, kind):
-#     """Calculate sedimentation rates for each dataframe, and output as interactive html.
-#
-#     inputs:
-#     - dataframes = list of pandas dataframes that contains the section data. Must have 'age' column
-#     - labels = list of labels for each input dataframe
-#     - kind = 'height' or 'age'
-#
-#     outputs:
-#     - fig = mpld3 generated html figure handle for plotting within Jupyter notebook
-#           = e.g. mpld3.display(fig)
-#     """
-#
-#     # create mpld3 plugin to highlight lines - used only for interactive plotting
-#     # adapted from: github.com/jakevdp/mpld3/issues/203
-#     class HighlightLines(mpld3.plugins.PluginBase):
-#         """A plugin to highlight lines on hover"""
-#
-#         JAVASCRIPT = """
-#         mpld3.register_plugin("linehighlight", LineHighlightPlugin);
-#         LineHighlightPlugin.prototype = Object.create(mpld3.Plugin.prototype);
-#         LineHighlightPlugin.prototype.constructor = LineHighlightPlugin;
-#         LineHighlightPlugin.prototype.requiredProps = ["line_ids"];
-#         LineHighlightPlugin.prototype.defaultProps = {alpha_bg:0.3, alpha_fg:1.0}
-#         function LineHighlightPlugin(fig, props){
-#             mpld3.Plugin.call(this, fig, props);
-#         };
-#
-#         LineHighlightPlugin.prototype.draw = function(){
-#           for(var i=0; i<this.props.line_ids.length; i++){
-#              var obj = mpld3.get_element(this.props.line_ids[i], this.fig),
-#                  alpha_fg = this.props.alpha_fg;
-#                  alpha_bg = this.props.alpha_bg;
-#              obj.elements()
-#                  .on("mouseover.highlight", function(d, i){
-#                                 d3.select(this).transition().duration(50)
-#                                   .style("stroke-opacity", alpha_fg); })
-#                  .on("mouseout.highlight", function(d, i){
-#                                 d3.select(this).transition().duration(200)
-#                                   .style("stroke-opacity", alpha_bg); });
-#           }
-#         };
-#         """
-#
-#         def __init__(self, line):
-#             self.line = line
-#             self.dict_ = {"type": "linehighlight",
-#                           "line_ids": [mpld3.utils.get_id(line)],
-#                           "alpha_bg": line.get_alpha(),
-#                           "alpha_fg": 1.0}
-#
-#     # number of sections
-#     N = len(dataframes)
-#
-#     # initialize list which will store lists for each section
-#     sed_rates = []
-#     mid_heights = []
-#     mid_ages = []
-#     for i in range(N):
-#         # initialize list which will store the values for each section
-#         sed_rate = []
-#         mid_height = []
-#         mid_age = []
-#         # get dataframe for the section in this iteration
-#         section_data = dataframes[i]
-#         # remove duplicate data (molar tooth samples, duplicate samples)
-#         to_drop = []
-#         for j in range(len(section_data.index)-1):
-#             if section_data['strat_m'][j+1] == section_data['strat_m'][j]:
-#                 to_drop.append(j)
-#         section_data = section_data.drop(to_drop)
-#         section_data = section_data.reset_index(drop=True)
-#         # fill lists
-#         for j in range(len(section_data.index)-1):
-#             sed_rate.append((section_data['strat_m'][j+1] - section_data['strat_m'][j]) /\
-#                             (section_data['age'][j] - section_data['age'][j+1]))
-#             sed_rate[j] = sed_rate[j] * 1e-3 #convert units to mm/yr
-#             mid_height.append((section_data['strat_m'][j+1] + section_data['strat_m'][j]) / 2)
-#             mid_age.append((section_data['age'][j] + section_data['age'][j+1]) / 2)
-#         # fill lists that store the lists
-#         sed_rates.append(sed_rate)
-#         mid_heights.append(mid_height)
-#         mid_ages.append(mid_age)
-#
-#     # plot the data using mpld3
-#     fig, ax = plt.subplots(figsize=(12,5))
-#     if kind == 'height':
-#         for i in range(N):
-#             l, = ax.plot(mid_heights[i],sed_rates[i],color='blueviolet',linewidth=4,alpha=0.1)
-#             tooltip = mpld3.plugins.LineLabelTooltip(l, labels[i])
-#             mpld3.plugins.connect(fig, HighlightLines(l))
-#             mpld3.plugins.connect(fig, tooltip)
-#         ax.set_ylabel('sedimentation rate [mm/yr]')
-#         ax.set_xlabel('cumulative stratigraphic height [m]')
-#         ax.invert_xaxis()
-#     elif kind == 'age':
-#         for i in range(N):
-#             l, = ax.plot(mid_ages[i],sed_rates[i],color='blueviolet',linewidth=4,alpha=0.1)
-#             tooltip = mpld3.plugins.LineLabelTooltip(l, labels[i])
-#             mpld3.plugins.connect(fig, HighlightLines(l))
-#             mpld3.plugins.connect(fig, tooltip)
-#         ax.set_ylabel('sedimentation rate [mm/yr]')
-#         ax.set_xlabel('age [Ma]')
-#         ax.invert_xaxis()
-#
-#     return fig
-
-
-
-
-
 def shift_chemostratigraphy(df, x_name, ref_ind, anchor1_ind, anchor2_ind, new_ref):
     """
     Move a data point to a new location, linearly shifting all points between two anchors.
 
-    inputs:
+    Parameters
+    ----------
     - df = dataframe which contains the data (edited in place)
     - x_name = string of the column name that has the values to be shifted
     - ref_ind = the index (0-indexed) of the reference point to be shifted (must be in between the anchors)

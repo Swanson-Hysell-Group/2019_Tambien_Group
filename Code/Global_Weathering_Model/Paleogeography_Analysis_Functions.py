@@ -1,4 +1,4 @@
-# This file contains the functions used in the Paleogeography_Analysis notebook within this repository.
+# This file contains the functions used in Paleogeography_Analysis.ipynb within this repository.
 
 import numpy as np
 from numpy.core.umath_tests import inner1d
@@ -332,13 +332,18 @@ def check_polygon_in_band(polygon, lat_min, lat_max):
     """
     Check to see whether any part of a given polygon is inside a given latitude band.
 
-    inputs:
-    - polygon = pygpplates polygon
-    - lat_min = the minimum latitude of the latitude band
-    - lat_max = the maximum latitude of the latitude band
+    Parameters
+    ----------
+    polygon : pygpplates polygon
+    lat_min : float
+        the minimum latitude of the latitude band
+    lat_max : float
+        the maximum latitude of the latitude band
 
-    ouputs:
-    - in_band = boolean - True if inside, False if outside
+    Returns
+    -------
+    in_band : boolean
+        True if inside, False if outside
     """
     # pull out lat/lon vertices
     lat_lon_array = polygon.to_lat_lon_array()
@@ -361,14 +366,20 @@ def get_area_in_band(polygon, lat_min, lat_max):
     """
     Calculate the area of a given polygon inside a given latitude band.
 
-    inputs:
-    - polygon = pygpplates polygon
-    - lat_min = the minimum latitude of the latitude band
-    - lat_max = the maximum latitude of the latitude band
+    Parameters
+    ----------
+    polygon : pygpplates polygon
+    lat_min : float
+        the minimum latitude of the latitude band
+    lat_max : float
+        the maximum latitude of the latitude band
 
-    outputs:
-    - area = the area of the polygon within the latitude band (in km^2)
-    - band_polygon = pygplates polygon, with the parts outside of the latitude band removed
+    Returns
+    -------
+    area : float
+        the area of the polygon within the latitude band (in km^2)
+    band_polygon : pygplates polygon
+        with the parts outside of the latitude band removed
     """
     # pull out lat/lon vertices
     lat_lon_array = polygon.to_lat_lon_array()
@@ -457,14 +468,19 @@ def plot_polygons(polygon_list, facecolor, lon_0):
     """
     Plot pygplates polygons.
 
-    inputs:
-    - polygon_list = list of pygplates polygons
-    - facecolor = string of matplotlib colour for geometries
-    - lon_0 = the central longitude for viewing
+    Parameters
+    ----------
+    polygon_list : list
+        of pygplates polygons
+    facecolor : string
+        of matplotlib colour for geometries
+    lon_0 : float
+        the central longitude for viewing
 
-    outputs:
-    - fig = figure handle
-    - ax_map = axis handle
+    Returns
+    -------
+    fig : figure handle
+    ax_map : axis handle
     """
     # initialize map
     fig = plt.figure(figsize=(12,10))
@@ -504,14 +520,21 @@ def get_areas_in_bands(reconstructed_feature_geometries, lat_mins, lat_maxs):
     """
     Get the area of all features in each latitude band.
 
-    inputs:
-    - reconstructed_feature_geometries = list of reconstructed features
-    - lat_mins = list/np array of latitude minimums
-    - lat_maxs = list/np array of latitude maximums
+    Parameters
+    ----------
+    reconstructed_feature_geometries : list
+        of reconstructed features
+    lat_mins : list/numpy array
+        of latitude minimums
+    lat_maxs : list/numpy array
+        of latitude maximums
 
-    outputs:
-    - areas = list of total area in each latitude band
-    - area_polygons = all polygons for which areas were calculated
+    Returns
+    -------
+    areas : list
+        of total area in each latitude band
+    area_polygons : list
+        of all polygons for which areas were calculated
     """
     # storage vectors
     areas = []
@@ -549,9 +572,9 @@ def get_areas_in_bands(reconstructed_feature_geometries, lat_mins, lat_maxs):
 
 def get_LIP_areas_in_bands(reconstructed_feature_geometries, lat_mins, lat_maxs, halflife, cover_thresh, covered_LIP_names):
     """
-    Get the area of all features in each latitude band, with optional calculations for:
-    - features decaying exponentially
-    - covered features instantly disappearing after `cover_thresh` years, and other features
+    Get the area of all features in each latitude band, with calculations designed for LIPs:
+    - LIPs decaying exponentially
+    - covered LIPs instantly disappearing after `cover_thresh` years, and other features
       decaying exponentially
 
     Parameters
