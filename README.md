@@ -1,8 +1,8 @@
-# 2019 Tambien Group
+# Tambien Group
 
-Code and data associated with the Park et al. (2019) study on the Tambien Group of Ethiopia.
+Code and data associated with the Park et al. (2020) study on the Tambien Group of Ethiopia.
 
-Park, Y., Swanson-Hysell, N.L., MacLennan, S.A., Maloof, A.C., Gebreslassie, M., Tremblay, M.M., Schoene, B., Alene, M., Anttila, E.S.C., Tesema, T., Haileab, B., 2019, The lead-up to the Sturtian Snowball Earth: Neoproterozoic chemostratigraphy time-calibrated by the Tambien Group of Ethiopia. *https://doi.org/10.1130/B35178.1*
+Park, Y., Swanson-Hysell, N.L., MacLennan, S.A., Maloof, A.C., Gebreslassie, M., Tremblay, M.M., Schoene, B., Alene, M., Anttila, E.S.C., Tesema, T., Haileab, B., 2020, The lead-up to the Sturtian Snowball Earth: Neoproterozoic chemostratigraphy time-calibrated by the Tambien Group of Ethiopia. *https://doi.org/10.1130/B35178.1*
 
 ## Environment
 
